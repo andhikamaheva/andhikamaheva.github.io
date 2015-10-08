@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Andhika Maheva Wicaksono
 tagline:             Tulisan Mahasiswa Biasa
 url:                 http://andhikamaheva.github.io
-paginate:            1
+paginate:            3
 baseurl:             ""
 
 # Assets
