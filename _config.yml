@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Andhika Maheva
+tagline:             'Tulisan Mahasiswa Biasa'
+description:         'Good programmer write code for machine, great programmer write code for other programmer.'
+url:                 http://andhikamaheva.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Andhika Maheva Wicaksono
+  url:               http://andhikamaheva.com
+  email:             andhikamaheva.com
+
+# Custom vars
+version:             1.0.0
