@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Ben Chadfield">
+
+  <title>
+    
+      My progress with learning Mongo and Ember &middot; Ben Chadfield
+    
+  </title>
+
+  <link rel="stylesheet" href="/assets/application-69e7e23bca522e04ab6f812fa7dda4c5.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400,400italic,700">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <img src="/assets/images/ben.jpg" alt="Picture of me" class="avatar" />
+      
+        <h2><a href="/">Ben Chadfield</a></h2>
+      
+      <p class="bio">
+        Co-founder of <a href="http://csworkflow.com">CS Workflow</a>.
+        Also <a href="http://secretsanta.csworkflow.com">Blog Secret Santa</a> and
+        <a href="http://www.meetup.com/Content-Strategy-Melbourne/">Content Strategy Melbourne meetup</a>.
+        Lots of content and coding. My daughter is 1 year old.
+      </p>
+    </div>
+
+    <div class="social-links">
+      <ul>
+        <li><a href="https://twitter.com/benchadfield"><span class="icon-twitter"></span></a></li>
+        <li><a href="http://facebook.com/benchadfield"><span class="icon-facebook"></span></a></li>
+        <li><a href="http://au.linkedin.com/in/benchadfield"><span class="icon-linkedin"></span></a></li>
+        <li><a href="https://github.com/bchadfield"><span class="icon-github-circled"></span></a></li>
+        <li><a href="http://www.youtube.com/user/kaliblack"><span class="icon-youtube"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    </nav> -->
+
+    <p class="copyright">&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">My progress with learning Mongo and Ember</h1>
+  <span class="post-date"><span class="icon-clock"></span>02 February 2013</span>
+  <p>I’ve spent about 16 hours running through tutorials, reading and rebuilding <a href="http://www.poopee.com.au" target="_blank">Poopee</a>. This post will cover what I’ve learnt so far and how.</p>
+
+<p>Poopee currently uses a MySQL database fronted by PHP that returns XML. The front-end is JQuery. My aim is to rebuild it with Mongo and Ember.</p>
+
+<h3 id="a-hrefhttpwwwmongodborg-targetblankmongodba"><a href="http://www.mongodb.org/" target="_blank">MongoDB</a></h3>
+
+<p>I’m comfortable with Mongo. I run through a basic <a href="http://tutorial.mongly.com/tutorial/index" target="_blank">interactive tutorial</a> at <a href="http://mongly.com" target="_blank">Mongly</a>. The main reason I wanted to use Mongo was that it had a simple way to handle <a href="http://docs.mongodb.org/manual/core/geospatial-indexes/" target="_blank">geospatial queries</a>. This was covered by Mongly with a <a href="http://tutorial.mongly.com/geo/index" target="_blank">geospatial tutorial</a>.</p>
+
+<p>The next step was to learn how to use Mongo as part of an API. <a href="http://coenraets.org/blog/" target="_blank">Christophe Coenraets</a> has a good two-part tutorial on how to build a simple site with <a href="http://nodejs.org/" target="_blank">Node.js</a>, <a href="http://expressjs.com/" target="_blank">Express</a>, Mongo and <a href="http://backbonejs.org/" target="_blank">Backbone</a>. The first part is a good guide on <a href="http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/" target="_blank">building the API</a>, which I followed. The second is really a link to a github repository for the finished product. I used the first post to build the API for Poopee. That included importing the lastest batch of Australian Toilet data. Importing the XML data was the single task that I spent the most time on.</p>
+
+<h3 id="a-hrefhttpemberjscom-targetblankembera"><a href="http://emberjs.com/" target="_blank">Ember</a></h3>
+
+<p>Outside the day and a half I spent on the API, I read about the good, bad and the ugly of pretty much every javascript framework I could find. I settled on Ember as the framework that I’d tackle. Ember is popular enough to have documentation and good tutorials. The decision was a toss-up between <a href="http://angularjs.org/" target="_blank">Angular</a> and Ember. I rejected Angular because I didn’t like the way it extended HTML. I prefer to keep my HTML clean. Obviously, I can change my mind later, once I delve deeper into Ember. It’s highly likely I’ll end up using Backbone for Poopee, because it’s such a straight forward web app.</p>
+
+<p>So far, I’ve spent my time coming to grips with the new (to me) concepts in Ember. After reading the <a href="http://emberjs.com/guides/" target="_blank">Ember guides</a>, the article/tutorial that I saw recommended was <a href="http://trek.github.com/" target="_blank">Advice on &#038; Instruction in the Use Of Ember.js</a>.</p>
+
+<p>The next step is to run the <a href="http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html" target="_blank">Ember and Rails tutorials</a>. The concept that I struggled with was how the API connection worked with the routing. I’m expecting this tutorial to help me understand that.</p>
+
+</div>
+
+<div class="related">
+  <h3>Related Posts</h3>
+  <ul class="related-posts">
+    
+      <li>
+        <h4>
+          <a href="/work/blog-secret-santa-problems-and-fixes/">Blog Secret Santa's problems from last year and this year's fixes</a>
+          <small><span class="icon-clock"></span>19 November 2014</small>
+        </h4>
+
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/work/how-i-migrated-wordpress-to-jekyll/">How I migrated from Wordpress to Jekyll</a>
+          <small><span class="icon-clock"></span>01 July 2014</small>
+        </h4>
+
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/work/birthing-a-content-strategy/">Birthing a Content Strategy</a>
+          <small><span class="icon-clock"></span>25 December 2013</small>
+        </h4>
+
+      </li>
+    
+  </ul>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'benchadfield'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+    
+    	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37077125-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+  </body>
+</html>

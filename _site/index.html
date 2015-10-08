@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="A blog">
+  <meta name="author" content="Ben Chadfield">
+
+  <title>
+    
+      Ben Chadfield &middot; A blog
+    
+  </title>
+
+  <link rel="stylesheet" href="/assets/application-69e7e23bca522e04ab6f812fa7dda4c5.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400,400italic,700">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <img src="/assets/images/ben.jpg" alt="Picture of me" class="avatar" />
+      
+        <h1><a href="/">Ben Chadfield</a></h1>
+      
+      <p class="bio">
+        Co-founder of <a href="http://csworkflow.com">CS Workflow</a>.
+        Also <a href="http://secretsanta.csworkflow.com">Blog Secret Santa</a> and
+        <a href="http://www.meetup.com/Content-Strategy-Melbourne/">Content Strategy Melbourne meetup</a>.
+        Lots of content and coding. My daughter is 1 year old.
+      </p>
+    </div>
+
+    <div class="social-links">
+      <ul>
+        <li><a href="https://twitter.com/benchadfield"><span class="icon-twitter"></span></a></li>
+        <li><a href="http://facebook.com/benchadfield"><span class="icon-facebook"></span></a></li>
+        <li><a href="http://au.linkedin.com/in/benchadfield"><span class="icon-linkedin"></span></a></li>
+        <li><a href="https://github.com/bchadfield"><span class="icon-github-circled"></span></a></li>
+        <li><a href="http://www.youtube.com/user/kaliblack"><span class="icon-youtube"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- <nav class="sidebar-nav">
+      <a class="sidebar-nav-item active" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    </nav> -->
+
+    <p class="copyright">&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="posts">
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/blog-secret-santa-problems-and-fixes/">
+        Blog Secret Santa's problems from last year and this year's fixes
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>19 November 2014</span>
+
+    <p>Last year’s <a href="http://blogsecretsanta.com">Blog Secret Santa</a> was fun, for the most part. The platform was totally hacked together in the fewest hours possible, using as much code from <a href="http://csworkflow.com">CS Workflow</a> as possible. People could sign up with their Twitter accounts, at a certain time they would get matched with someone to write for, they could add their gift post, and it was delivered at Christmas.</p>
+
+<p>The platform worked well, even if it didn’t look very nice. We foresaw most of the problems that came up, but decided to fix as they came up. Everything we came across last year has a fix for it this year. This post goes into some detail about each of these problems and resulting fixes.</p>
+
+<h3 id="niche-content-strategy-theme">Niche content strategy theme</h3>
+<p>A few people wanted to join, but didn’t fit in the content strategy theme. One of the bigger changes this year is that we’re supporting multiple groups so people can join topics that suit their blogs and interests.</p>
+
+<p>At the moment registering new groups is manual. Someone contacts us saying they want to start a new group. We check them out and see if we think they’re elf material, then setup the group and invite them to elf it. We’re not expecting a large amount of groups this year so haven’t bothered building out a group onboarding process.</p>
+
+<p>Almost everything is taken care of, all elves have to do is drum up interest in joining their group. It doesn’t have to be a large group, just more than 3 will mean random matches can be drawn.</p>
+
+<h3 id="people-pulling-out">People pulling out</h3>
+<p>Less than a handful of people pulled out after they were matched. Fortunately we had a few people on an unofficial waiting list that could replace them. This was a manual process though.</p>
+
+<p>Now elves can easily remove a player or replace them with someone on the waiting list. We’ll also add more communication with other affected people. The biggest problem is that if someone pulls out then the person writing for them has to tailor their gift for a new person.</p>
+
+<h3 id="no-real-waiting-list">No real waiting list</h3>
+<p>As I mentioned before we had an unofficial waiting list. Now people who register after the match cut off go on the waiting list. Elves can see the waiting list. If someone pulls out the elves can replace them with someone from the waiting list. Elves only have access to the group they are elfing for.</p>
+
+<p>What we need to improve how people on the waiting list are communicated to. If we made no changes, people on the waiting list wouldn’t know they aren’t playing and have to wait for someone to drop out.</p>
+
+<h3 id="people-without-blogs">People without blogs</h3>
+<p>We were open to all last year, but one of the biggest disappointments people had was when they were given someone to write for who didn’t have a blog. They didn’t want to put in effort writing when that effort wasn’t going to make it to the internet.</p>
+
+<p>This year we’ve made it mandatory for everyone to add a blog URL to their profile. Obviously, people can add URLs that aren’t their blog, but naming the field ‘blog’ will hopefully stop that happening.</p>
+
+<p>If you don’t have a blog, but want to start one and join Blog Secret Santa, there are many many ways to do it. Your secret santa gift post could be your first post!</p>
+
+<h3 id="the-giftless">The giftless</h3>
+<p>Last year 5 people out of 50 were supposed to give gifts and didn’t. We knew some people wouldn’t end up giving, but had no idea what the number would look like. We had a worst case in our minds of 50%, so 5 wasn’t too bad. We were happy.</p>
+
+<p>Max spent some time in the new year whipping up some posts about Blog Secret Santa to give to people that missed out. Everyone had a gift by the time we closed submissions at the end of January.</p>
+
+<p>We don’t have a concrete solution for this year. Our idea at the moment is to let writers know when the person they wrote for didn’t give a gift. The writer will have the choice to give it to them anyway or to have it added to the group’s gift pile to be handed out to the giftless. I don’t think anyone who didn’t give gifts went on to publish their gift posts. So you may want to take that into consideration if you face yourself with that choice.</p>
+
+<h3 id="unpublished-gifts">Unpublished gifts</h3>
+<p>The biggest problem last year was that people didn’t publish the gifts they were given. This really disappointed the gift givers, who all put time into their posts. They didn’t get the satisfaction of seeing their post on the 2013 blogroll, even though it didn’t credit them. Mainly these unpublished givers were left thinking “my content isn’t good enough for you?” and had their experiences ruined.</p>
+
+<p>What we’re doing about it is to return unpublished posts back the giver at a certain cutoff point. That will probably be the end January. The writer can then publish it themselves and get featured on the group’s blogroll.</p>
+
+<p>We’ve returned some unpublished posts to their writers. If your gift wasn’t published and you want it back then get in touch.</p>
+
+<p>We’ll also make it easier to add the published URL to your gift so it can feature on the blogroll. This will make it easier, but I don’t think this was an issue that stopped gifts getting published.</p>
+
+<h3 id="gifts-after-christmas">Gifts after Christmas</h3>
+<p>A happier problem we solved last year was that someone people missed the deadline to submit their gifts. When gifts were handed out at Christmas, everyone who hadn’t submitted a gift was emailed to let them know someone had missed out on a gift because of them.</p>
+
+<p>Most people then wrote posts and we had to add a way for them to submit their gifts late. This worked well and most people were happy. We’ll continue the same thing this year.</p>
+
+<h3 id="no-way-to-communicate">No way to communicate</h3>
+<p>True to Secret Santa tradition, matches were anonymous. There were times when people wanted to communicate with the people they were matched with. They may have wanted to find out more about the person they were writing for. Sometimes there were apologies for pulling out. Last year, these messages were ferried by Santa.</p>
+
+<p>We also planning on adding anonymous communication between people and their giver and receiver. This will also be used to send messages to the group elf. The aim is to keep things anonymous and fun, as well as keeping things private like personal email addresses.</p>
+
+<p>There will be a way to report abusive messages, because unfortunately combining the Internet and anonymity makes some people dicks.</p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/how-i-migrated-wordpress-to-jekyll/">
+        How I migrated from Wordpress to Jekyll
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>01 July 2014</span>
+
+    <p>Last weekend I migrated my personal blog from <a href="http://wordpress.org" target="_blank">Wordpress</a> to <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. I tweeted as I went
+to keep some sort of record of what I'd done and the decisions I'd
+made. I also hoped that anyone else wanting to do the same thing would
+find it helpful.</p>
+
+<p>It all started because GoDaddy reminded me that my hosting was about to
+expire. I'd been using Jekyll for the CS Workflow site and loved it.</p>
+
+<blockquote class="twitter-tweet">
+  <p>The hosting on <a href="http://t.co/0WqTirL8Vw">http://t.co/0WqTirL8Vw</a> is about to expire so today
+I’ll be migrating from wordpress to jekyll and hosting on github</p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482683466551541760">June 28, 2014</a></p>
+</blockquote>
+
+<p>That last part about hosting on Github isn't true. I hosted it on the
+<a href="http://csworkflow.com" target="_blank">CS Workflow</a> server.</p>
+
+<h3 id="what-is-jekyll-and-why-use-it">What is Jekyll and why use it?</h3>
+
+<p>Jekyll is a static site generator. A static site doesn't use any server
+side processing. Web browsers can easily handle static HTML, CSS, and
+Javascript. You've seen this in action if you have ever double-clicked
+a .html file on your desktop and had it opened in your browser.</p>
+
+<p>Jekyll uses a template, processing rules, and content to generate a
+static site. Each page of the site has its .html file. The HTML file,
+along with the stylesheets, scripts, and images, can be uploaded to any
+web server. There are tons of <a href="https://www.google.com.au/search?q=hosting+static+website" target="_blank">ways to host static sites</a> and almost all of them are free.</p>
+
+<p>Wordpress, in comparison, uses PHP and MySQL to generate HTML each time
+a Wordpress page is viewed. The template is filled with content from the
+database, which is displayed by the browser. This only takes a few
+hundredths of a second.</p>
+
+<p>Wordpress makes having a website really easy, especially is you use
+<a href="http://wordpress.com" target="_blank">Wordpress.com</a> and don't worry about your own
+hosting. Almost everything can be managed through the web-based admin
+console. You can be completely removed from everything technical, like
+HTML markup and installing plugins. Wordpress and platforms like it have
+allowed millions of people with no web development skills to have their
+own websites. That's a great thing!</p>
+
+<p>Why bother with Jekyll then? Jekyll is faster. The site will be faster
+to use. Getting a new site setup is faster. Oh, and it supports Markdown
+by default. I love faster and I love Markdown, but the main reason I
+love Jekyll is that it puts me in total control over my entire site. I
+have instant access to style, layout, and content in a single text editor.
+I'm using <a href="https://atom.io/" target="_blank">Atom</a> for my text editor at the
+moment, which I completely recommend.</p>
+
+<p>It's totally a preference thing and there is a skills barrier to Jekyll, so it's not for
+everyone.</p>
+
+<h3 id="exporting-from-wordpress">Exporting from Wordpress</h3>
+
+<p>Let's get on with it. The migration starts with exporting my content
+from Wordpress. I'd seen in Jekyll's documentation that there is
+support for migrating. I started there, but the documentation wasn't
+very thorough and I imagined using their method would waste time.</p>
+
+<blockquote class="twitter-tweet">
+  <p>Jekyll’s migration docs for wordpress make me think there will be lots
+of messing around with exporting importing <a href="http://t.co/Zc74OpukEI">http://t.co/Zc74OpukEI</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482685148064780288">June 28, 2014</a></p>
+</blockquote>
+
+<p>Off to google to find a good guide. I didn't want to spend a lot of
+time or energy on this migration, so a good tutorial saves both. I
+recommend the <a href="http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/" target="_blank">how-to guide on girliemac.com</a>.
+This is what I followed. I'll assume your also using that as a
+reference and only chime in if I have something to add.</p>
+
+<blockquote class="twitter-tweet">
+  <p>This looks like a good how-to guide. I would have forgotten about
+exporting comments. <a href="http://t.co/jIh9JmyHCW">http://t.co/jIh9JmyHCW</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482685882965561344">June 28, 2014</a></p>
+</blockquote>
+
+<p>One of the first steps was to export comments to Disqus. I didn't have
+many comments, but I wanted to keep the few I had. I hadn't setup
+Disqus on a site before. It took than 3 minutes to complete the steps,
+going by the twitter timestamps.</p>
+
+<p>Disqus had updated its export/import method and it was even easier that
+the way shown in the tutorial. Imports are queued and it took a few
+hours before mine were processed.</p>
+
+<blockquote class="twitter-tweet">
+  <p>Disqus is set up already. So easy. They’ve improved the exporting
+support so there are steps in the how-to I can skip.</p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482686642310746113">June 28, 2014</a></p>
+</blockquote>
+
+<p>Jekyll's Wordpress exporter accessed the database remotely. The
+tutorial uses <a href="https://github.com/benbalter/wordpress-to-jekyll-exporter">wordpress-to-jekyll-exporter</a>, a Wordpress plugin.
+This plugin isn't searchable in the Wordpress plugin directory. I
+uploaded the plugin zip file to the plugin folder using FTP. Then I used
+the plugin installer in my Wordpress admin console to unzip, install,
+and activate the plugin.</p>
+
+<blockquote class="twitter-tweet">
+  <p>Wordpress to jekyll exporter plugin installed. Export done in one
+click! <a href="https://t.co/NiWVXZIlhX">https://t.co/NiWVXZIlhX</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482687960865714176">June 28, 2014</a></p>
+</blockquote>
+
+<p>The export was done with one click on the 'Export to Jekyll' link in
+the Wordpress console. This exported my posts and pages to Markdown. It
+also added any uploaded media to the export.</p>
+
+<p>My only issue was that it used the .md Markdown extension instead of
+.markdown, which I prefer. I used
+the view/edit method in Filezilla and did a find and replace in the plugin file to change the .md
+to .markdown. I tried to use the plugin editor in the Wordpress console,
+but it went crazy when I tried to save the changes.</p>
+
+<blockquote class="twitter-tweet">
+  <p>The plugin uses .md instead of .markdown which I prefer. I’ve edited
+the plugin and exported again (in one click!)</p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482688323618500608">June 28, 2014</a></p>
+</blockquote>
+
+<blockquote class="twitter-tweet">
+  <p>All exported now to work on the template. I’ll use CS Workflow’s
+preview template builder to get the markup and css.
+<a href="http://t.co/o9tY5rJQCz">http://t.co/o9tY5rJQCz</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/482689963738161153">June 28, 2014</a></p>
+</blockquote>
+
+<h3 id="setting-up-jekyll">Setting up Jekyll</h3>
+
+<p>I didn't export my template. I decided to redesign instead. This is
+where I wasted the most time. I looked at theme sites for inspiration.</p>
+
+<p>I can't remember what I searched for, but I found <a href="http://getpoole.com/" target="_blank">Poole</a>, a Jekyll start kit built by Mark Otto of Bootstrap
+fame. Poole already looks pretty good, but has two themes. I used the
+<a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> theme, which I made a few changes to.</p>
+
+<ul>
+  <li>Made the post header an H1. Originally it was an H2 with the site
+title (on the left column) always an H1.</li>
+  <li>Changed the blog roll pagination directory from /page2/ to page/2/.</li>
+  <li>Removed the pages menu from the left column. I only had the home page,
+so this was unnecessary.</li>
+  <li>Removed the special font from the site title in the left and just went
+with the standard PT Sans.</li>
+  <li>Added an avatar image for myself.</li>
+  <li>Added social icons with links.</li>
+  <li>Changed the related posts header from H3 to H4.</li>
+  <li>Added a background cover image for the left column. I got the image
+from <a href="http://nos.twnsnd.co/" target="_blank">this awesome photo resource</a>.</li>
+  <li>Increased the font size of the post headers.</li>
+  <li>Added a little clock icon next to the post dates.</li>
+</ul>
+
+<p>I think that's it. All I needed to do was to copy and paste the export
+Markdown files into the <code>_posts</code> directory and run <code>jekyll build</code>.</p>
+
+<blockquote class="twitter-tweet">
+  <p>I went with Poole with the Hyde as a Jekyll foundation.
+<a href="http://t.co/LB89E46M0s">http://t.co/LB89E46M0s</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/483111061327863808">June 29, 2014</a></p>
+</blockquote>
+
+<p>I needed to host the site myself because there are a few restrictions to
+hosting on Github. The main one that stopped me going with that option
+is not being able to use plugins. I use two plugins. The first is to
+<a href="https://github.com/markets/jekyll-timeago" target="_blank">figure out how old</a> my daughter is. This is
+displayed in my bio in the left column. Jekyll uses <a href="http://docs.shopify.com/themes/liquid-basics" target="_blank">Liquid
+templates</a>, but doesn't come with a timeago
+filter as standard. The second plugin is <a href="https://github.com/ixti/jekyll-assets" target="_blank">jekyll-assets</a>, which compiles the different stylesheets into a
+single, minified, gzipped, and cache-busting css file. This makes
+loading for the first time even faster.</p>
+
+<p>To start, I created a new Github repository called
+<a href="https://github.com/bchadfield/chadfield-blog" target="_blank">chadfield-blog</a>. This gives me cloud-hosted
+source control using git. Github also makes deploying changes really
+easy. To get the site on to the server I sshed in and ran <code>git clone
+https://github.com/bchadfield/chadfield-blog.git</code> from the directory I
+wanted to serve the site from. To get any future updates I run <code>git
+pull</code>.</p>
+
+<p>By default Jekyll generates the site in the <code>_site</code> folder. For CS
+Workflow I'd set the build destination to a different directory which
+used its own git repository. This time I kept the source and generated
+site together.</p>
+
+<p>The trade off of managing a single repository is that I'm deploying the
+source files to the web server and not just the static site. I point the
+web server to <code>/chadfield-blog/_site</code> instead of <code>/chadfield-blog</code> and
+have a few extra kilobytes on the server.</p>
+
+<p>All I needed to do was add the site to the Nginx config, restart Nginx,
+and point the domain name at the server IP address.</p>
+
+<div class="highlight"><pre><code class="nginx"><span class="k">server</span> <span class="p">{</span>
+ <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
+ <span class="kn">server_name</span> <span class="s">www.chadfield.org</span><span class="p">;</span>
+ <span class="kn">rewrite</span> <span class="s">^</span> <span class="s">http://chadfield.org</span><span class="nv">$request_uri?</span> <span class="s">permanent</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">server</span> <span class="p">{</span>
+ <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
+ <span class="kn">server_name</span> <span class="s">chadfield.org</span><span class="p">;</span>
+ <span class="kn">root</span> <span class="s">/home/deployer/chadfield-blog/_site</span><span class="p">;</span>
+ <span class="kn">index</span> <span class="s">index.html</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<blockquote class="twitter-tweet">
+  <p>Finished migrating my Wordpress blog to Jekyll. Here’s the result
+<a href="http://t.co/mh7jjG3fpk">http://t.co/mh7jjG3fpk</a></p>
+
+  <p>— Ben Chadfield (@benchadfield) <a href="https://twitter.com/benchadfield/statuses/483111432959954944">June 29, 2014</a></p>
+</blockquote>
+
+<h3 id="publishing-workflow">Publishing workflow</h3>
+
+<p>Obviously, the steps to get new content published is different to
+Wordpress. I'll lay out the steps needs and what I've done to make it
+easier.</p>
+
+<ol>
+  <li>Write a new post.</li>
+  <li>Create a new Markdown file in the <code>_posts</code> folder.</li>
+  <li>Add meta-data and content to the Markdown file.</li>
+  <li>Run <code>jekyll serve</code> and test locally that everything is okay.</li>
+  <li>Commit changes to git using <code>git add -A</code>.</li>
+  <li>Push local git repository to Github using <code>git push origin master</code>.</li>
+  <li>ssh into the server and run <code>git pull</code> in the site directory.</li>
+  <li>Check on my site that the changes are okay.</li>
+</ol>
+
+<p>I automate steps 5, 6, and 7 using a rakefile. I use <a href="http://csworkflow.com" target="_blank">CS Workflow</a> to write, get reviews, and export meta-data to
+Markdown.</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">desc</span> <span class="s2">&quot;Commit changes to website repo&quot;</span>
+<span class="n">task</span> <span class="ss">:commit</span> <span class="k">do</span>
+	<span class="nb">puts</span> <span class="s2">&quot;Committing...&quot;</span>
+  <span class="nb">exec</span> <span class="s2">&quot;git add -A &amp;&amp; git commit -m &#39;Site update&#39; &amp;&amp; git push origin master&quot;</span>
+<span class="k">end</span>
+
+<span class="n">desc</span> <span class="s2">&quot;Update code in production&quot;</span>
+	<span class="n">task</span> <span class="ss">:update</span> <span class="k">do</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Updating production...&quot;</span>
+  <span class="nb">exec</span> <span class="s2">&quot;ssh user@server.com &#39;cd site-directory &amp;&amp; git pull&#39;&quot;</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<p>To use that copy into <code>rakefile.rb</code> and change the ssh details and site
+directory. Then all I need to do is run <code>rake commit</code> and <code>rake update</code>.</p>
+
+<p>Hopefully you found that helpful. There’s plenty of gaps, which is why I’ve called it
+titled it as how I migrated rather than a general how to. Really there’s not much to
+improve on the how to I referenced. Feel free to ask any questions or offer improvements
+I could make.</p>
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/birthing-a-content-strategy/">
+        Birthing a Content Strategy
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>25 December 2013</span>
+
+    <p><em>This post is part of a creative, generous effort in the content strategy community called <a target="_blank" href="http://secretsanta.csworkflow.com/">Blog Secret Santa</a>. Many thanks to <a href="http://twitter.com/mbloomstein">Margot Bloomstein</a> for the <a href="https://twitter.com/mbloomstein/status/395969851820220416" target="_blank">germ of the idea</a>, and to Ben Chadfield for taking it to fruition, expanding it into a community of 50 content strategy bloggers. I am honored to have gotten Ben as my Blog Secret Santa outlet! – Currently anonymous guest blogger</em></p>
+
+<p>I always say that launching a website is like having a baby: There’s an amazing amount of preparation needed in advance, but once it launches you have this BABY that requires attention, guidance, discipline, and affection. Every. Single. Day. Since Ben is a new parent, I wanted to tie the two together.</p>
+
+<p>For the most part, the post-launch work of any digital property is executing the content strategy. Therefore, the upfront effort to create a sound, smart content strategy is key to ongoing – and ideally, increasing – success for the site.</p>
+
+<p>In the name of taking a metaphor to its logical conclusion, here are the four stages of birthing a content strategy:</p>
+
+<h3 id="phase-1-conception">Phase 1. Conception</h3>
+
+<p>A content strategy usually starts with a problem (the most common one in my experience being “no one can find anything on our site”), a redesign, or a new microsite. It’s followed by the decision to undertake the content strategy and getting the right resources in place. Then, voila – you’re on your way! (You can use your imagination in translating these concepts to conceiving a baby.)</p>
+
+<h3 id="phase-2-gestation">Phase 2. Gestation</h3>
+
+<p>Understanding the conditions: How do things work now (who is publishing content? who is reviewing it? what is causing the problems)? What is successful and where are improvements needed? After these are identified, they all need to be prioritized.</p>
+
+<p>Formation: For a content strategy, this is the audit and the development of the editorial guidelines, voice and tone, lifecycle, and governance.</p>
+
+<p>Refinement: To make sure the content strategy can actually survive, its elements need to be tested on real content and with real content authors.</p>
+
+<h3 id="phase-3-labor">Phase 3. Labor</h3>
+
+<p>Now it’s time to prepare for the content’s entry into the world. Where will the content guidelines be stored, and what’s the plan for ongoing communications, education, community, success stories, and reporting?</p>
+
+<h3 id="phase-4-delivery">Phase 4. Delivery</h3>
+
+<p>In addition to the launch of the new digital product, everyone involved in creating, reviewing, and publishing the content needs to know what the strategy is and how it will work. (If only parenting came with a rule book too!) They need to be held accountable for their input, their effort, and the results.</p>
+
+<p>Congratulations: You are now the parent of a bouncing new website, and a shiny content strategy. Get ready – it will be a bumpy ride with loss of sleep, stressful moments, and even a few failures. But there will also be brilliant successes, swells of love, and rewards of all sizes and types along the way. Once you see the first glimmer of recognition (the website equivalent of that first true smile), you’ll know your efforts have been worthwhile!</p>
+
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/im-not-a-content-strategist/">
+        I&#8217;m not a content strategist
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>03 December 2013</span>
+
+    <p>Over the last dozen or so years I’ve worked for quite a few companies and on an uncountable (because who can remember) number of digital projects. As you would hope, I did learn things.</p>
+
+<p>The problem is that I don’t know what I am. My role in CS Workflow is Founder. That just means that I do everything needed to get my startup out of obscurity.</p>
+
+<p>This post, and any subsequent posts that follow the same title pattern, are explorations to try to figure out what I am. I figure looking at what I’m not is a good way to cross things off the list.</p>
+
+<p>I’m starting with content strategy and the ‘ist’ of that for two reasons.</p>
+
+<p>The first is Blog Secret Santa (<a href="http://contentistheweb.com/magic-internet-santa/" target="_blank">read about how that got started</a>). Being involved with a bunch of real deal content strategists, with the possibility of anonymously sharing content with one of them, showed that I’m not in that club. That’s not because I’m not welcome, but because their CS cred is so strong.</p>
+
+<p>The other reason to start with this specialty is that I’m always looking for content strategists to share the CS Workflow message with. This feels a bit awkward to say, but there are a lot of people who inflate their content strategy expertise. I didn’t want to be one of those people falsely claiming the latest trendy skill set. It’s unfair to the real experts.</p>
+
+<p>I create content, but I’m not a content strategist. I have even created content strategies, but I’m still not a content strategist. A content strategist, at least in my view, has a specialist focus in content strategy, either creating, managing execution or furthering the field.</p>
+
+<p>There isn’t a single definition of content strategy. If you want a good description then check out the often referenced <a href="http://alistapart.com/article/thedisciplineofcontentstrategy" target="_blank">The Discipline of Content Strategy</a> by Kristina Halvorson.</p>
+
+<p>I’m not comfortable claiming that specialty, because the most obvious attribute of the real deal content strategists is focus. It’s also obvious that this focus comes from passion for content strategy, and content in general. I share the passion, but not the focus.</p>
+
+<p>At the moment, about 80% of my time is spent on the CS Workflow product. This is mainly development time, including gathering feedback and planning next steps. The remaining time I have is split between content and trying to get people to use the product.</p>
+
+<p>Fortunately, I’m not in this alone. My lovely wife and partner, Vicky, is flying the content banner. Her background is in educational publishing. Her passion and focus is far more diverse than my own.</p>
+
+<p> </p>
+
+<p>Through CS Workflow and working with Vicky, I might eventually become focused enough to call myself a content strategist. However, I can’t see our team dynamic changing, or a reduction in development work. With Vicky able to spend more and more time on content (did I mention we have a six-month-old daughter) my focus is likely to only shift more to the product.</p>
+
+<p>Keep an eye out for the CS Workflow blog. The content we’ll produce aims to educate people about content strategy, particularly the workflow and governance component.</p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/why-i-love-giving-feedback/">
+        Why I love giving feedback
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>22 November 2013</span>
+
+    <p>I suck at following my own advice. <a href="http://csworkflow.com" target="_blank">CS Workflow’s website</a> is pretty bad, we’re not active on social media and the amount of content we’re producing is only slightly more than none (there’s good stuff in the pipeline).</p>
+
+<p>I seem to forget the basics when working on my own projects. For an example on top of the one’s already given, I forgot to add authorisation to <a href="http://secretsanta.csworkflow.com" target="_blank">Blog Secret Santa</a> to stop people being able to edit each other’s account details. I fixed that a couple of hours after it went live, but still.</p>
+
+<p>The point of this post wasn’t self deprecation, it was to remind myself of how much I get from giving other people feedback. I generally give feedback with the selfless intention of making the world better. I love startups, internet technologies and content, so don’t need any excuse to delve into those areas. From self deprecation to humble bragging…</p>
+
+<p>I love giving feedback because it shames me into following my own advice. “I can’t say that if <em>I’m</em> not doing it,” I think to myself. Giving feedback is a mirror to my own efforts.</p>
+
+<p>Beyond self reflection is simple exercise. Flexing the thinking muscle <a href="https://www.stephencovey.com/7habits/7habits-habit7.php">sharpens the saw</a> and give me new perspectives and inspiration</p>
+
+<p>Beyond all self improvement is making and building friendships. Friends in need of feedback are friends indeed. Friends are great and the win-win of helping them with feedback is the winningest of the win-wins.</p>
+
+<p>I’m rewriting CS Workflow’s website content because of giving feedback to on someone else’s website. This will lead to a redesign. Of course, the content updates are based on feedback selflessly shared by others. Thanks <a href="http://worldcricketwatch.com" target="_blank">David Siddall</a> and <a href="https://twitter.com/MxDEJ" target="_blank">Max Johns</a>.</p>
+
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page/2">Older</a>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+    </div>
+    
+    	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37077125-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+  </body>
+</html>
