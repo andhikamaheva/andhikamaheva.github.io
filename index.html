@@ -1,54 +1,33 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Andhika Maheva Wicaksono</title>
-		<link type="text/css" rel="stylesheet" href="style.css" />
-		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="github-feed.js"></script>
-	</head>
-	<body>
-		<div id="page">
-			<h1>Hi! My Name is <a href="https://aaaandhika.github.io" target="_BLANK">Andhika Maheva W.</a></h1>
-			<hr>
-			<h2><i class="fa fa-book"></i> My Repository</h2>
-		<div id="ibacor_repos"></div>
-			<hr>
-		<h2><i class="fa fa-code"></i> My Gist</h2>
-		<div id="ibacor_gists"></div>
-			<hr>
-				<h2><i class="fa fa-bullhorn"></i> Sosmed</h2>
-					<footer><a class="fa fa-facebook fa-2x" href="https://www.facebook.com/andhikamaheva" target="_blank"></a>
-						<a class="fa fa-twitter fa-2x" href="https://twitter.com/andhikamaheva" target="_blank"></a>
-						<a class="fa fa-google-plus fa-2x" href="https://plus.google.com/+AndhikaMahevaWicaksono/" target="_blank"></a>
-						<a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/andhikamaheva" target="_blank"></a>
-						<a class="fa fa-instagram fa-2x" href="http://instagram.com/andhikamaheva" target="_blank"></a>
-						<a class="fa fa-github fa-2x" href="https://github.com/aaaandhika" target="_blank"></a>
-						<a class="fa fa-codepen fa-2x" href="#" target="_blank"></a>
-								<hr>
-			
-						</footer>
-	
-		</div>
-		<div id="naek"><a href="#"><span class="fa fa-arrow-up fa-2x" title="Up Up"></span></a></div>
-		<script type="text/javascript">
-			jQuery(document).ready(function ($) {
-				$(window).scroll(function () {
-					if ($(this).scrollTop() > 150) {
-						$('#naek').fadeIn('slow');
-					} else {
-						$('#naek').fadeOut('slow');
-					}
-				});
-				$('#naek').click(function () {
-					$("html, body").animate({
-						scrollTop: 0
-					}, 500);
-					return false;
-				});
-			});
-		</script>
-	</body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
