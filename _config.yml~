@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Andhika Maheva
+locale:           en_US
+url:		  
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Andhika Maheva Wicaksono
+  avatar: git.jpg
+  bio: "Good programmer write code for machine, <b>great programmer write code for other programmer.</b>"
+  email: andhikamaheva@gmail.com
+  disqus-shortname: andhikamahevawicaksono
+  twitter: andhikamaheva
+  facebook: andhikamaheva
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: andhikamaheva
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: andhikamaheva
+  xing: #username
+  instagram: andhikamaheva
+  lastfm: #username
+  tumblr: andhikamaheva
+  pinterest: #username
+  foursquare: #username
+  steam: andhikamaheva
+  dribbble: #username
+  youtube: andhikamaheva
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
