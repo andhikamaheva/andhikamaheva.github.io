@@ -4,9 +4,9 @@ title: About Me
 tags: [andhikamaheva, tentang saya, andhika maheva wicaksono, programmer indonesia]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
-thumb : cover_twit.jpg
-image:
 
+image:
+thumb : cover_twit.jpg
   feature:
   credit: andhikamaheva
   creditlink: http://andhikamaheva.com/about
