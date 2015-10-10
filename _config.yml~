@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            Andhika Maheva
-tagline:          Tulisan Mahasiswa Biasa
-url:              http://andhikamaheva.com
+tagline:          A blog
+url:              http://chadfield.org
 baseurl:          /
 
 author:
-  name:           'Andhika Maheva Wicaksono'
-  url:            https://twitter.com/andhikamaheva
+  name:           'Ben Chadfield'
+  url:            https://twitter.com/benchadfield
 
 paginate:         5
 paginate_path:    "page/:num"
