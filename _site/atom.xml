@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Ben Chadfield</title>
+ <link href="http://chadfield.org/atom.xml" rel="self"/>
+ <link href="http://chadfield.org/"/>
+ <updated>2014-11-19T18:08:14+11:00</updated>
+ <id>http://chadfield.org</id>
+ <author>
+   <name>Ben Chadfield</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Blog Secret Santa's problems from last year and this year's fixes</title>
+   <link href="http://chadfield.org/work/blog-secret-santa-problems-and-fixes/"/>
+   <updated>2014-11-19T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/blog-secret-santa-problems-and-fixes</id>
+   <content type="html">&lt;p&gt;Last year’s &lt;a href=&quot;http://blogsecretsanta.com&quot;&gt;Blog Secret Santa&lt;/a&gt; was fun, for the most part. The platform was totally hacked together in the fewest hours possible, using as much code from &lt;a href=&quot;http://csworkflow.com&quot;&gt;CS Workflow&lt;/a&gt; as possible. People could sign up with their Twitter accounts, at a certain time they would get matched with someone to write for, they could add their gift post, and it was delivered at Christmas.&lt;/p&gt;
+
+&lt;p&gt;The platform worked well, even if it didn’t look very nice. We foresaw most of the problems that came up, but decided to fix as they came up. Everything we came across last year has a fix for it this year. This post goes into some detail about each of these problems and resulting fixes.&lt;/p&gt;
+
+&lt;h3 id=&quot;niche-content-strategy-theme&quot;&gt;Niche content strategy theme&lt;/h3&gt;
+&lt;p&gt;A few people wanted to join, but didn’t fit in the content strategy theme. One of the bigger changes this year is that we’re supporting multiple groups so people can join topics that suit their blogs and interests.&lt;/p&gt;
+
+&lt;p&gt;At the moment registering new groups is manual. Someone contacts us saying they want to start a new group. We check them out and see if we think they’re elf material, then setup the group and invite them to elf it. We’re not expecting a large amount of groups this year so haven’t bothered building out a group onboarding process.&lt;/p&gt;
+
+&lt;p&gt;Almost everything is taken care of, all elves have to do is drum up interest in joining their group. It doesn’t have to be a large group, just more than 3 will mean random matches can be drawn.&lt;/p&gt;
+
+&lt;h3 id=&quot;people-pulling-out&quot;&gt;People pulling out&lt;/h3&gt;
+&lt;p&gt;Less than a handful of people pulled out after they were matched. Fortunately we had a few people on an unofficial waiting list that could replace them. This was a manual process though.&lt;/p&gt;
+
+&lt;p&gt;Now elves can easily remove a player or replace them with someone on the waiting list. We’ll also add more communication with other affected people. The biggest problem is that if someone pulls out then the person writing for them has to tailor their gift for a new person.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-real-waiting-list&quot;&gt;No real waiting list&lt;/h3&gt;
+&lt;p&gt;As I mentioned before we had an unofficial waiting list. Now people who register after the match cut off go on the waiting list. Elves can see the waiting list. If someone pulls out the elves can replace them with someone from the waiting list. Elves only have access to the group they are elfing for.&lt;/p&gt;
+
+&lt;p&gt;What we need to improve how people on the waiting list are communicated to. If we made no changes, people on the waiting list wouldn’t know they aren’t playing and have to wait for someone to drop out.&lt;/p&gt;
+
+&lt;h3 id=&quot;people-without-blogs&quot;&gt;People without blogs&lt;/h3&gt;
+&lt;p&gt;We were open to all last year, but one of the biggest disappointments people had was when they were given someone to write for who didn’t have a blog. They didn’t want to put in effort writing when that effort wasn’t going to make it to the internet.&lt;/p&gt;
+
+&lt;p&gt;This year we’ve made it mandatory for everyone to add a blog URL to their profile. Obviously, people can add URLs that aren’t their blog, but naming the field ‘blog’ will hopefully stop that happening.&lt;/p&gt;
+
+&lt;p&gt;If you don’t have a blog, but want to start one and join Blog Secret Santa, there are many many ways to do it. Your secret santa gift post could be your first post!&lt;/p&gt;
+
+&lt;h3 id=&quot;the-giftless&quot;&gt;The giftless&lt;/h3&gt;
+&lt;p&gt;Last year 5 people out of 50 were supposed to give gifts and didn’t. We knew some people wouldn’t end up giving, but had no idea what the number would look like. We had a worst case in our minds of 50%, so 5 wasn’t too bad. We were happy.&lt;/p&gt;
+
+&lt;p&gt;Max spent some time in the new year whipping up some posts about Blog Secret Santa to give to people that missed out. Everyone had a gift by the time we closed submissions at the end of January.&lt;/p&gt;
+
+&lt;p&gt;We don’t have a concrete solution for this year. Our idea at the moment is to let writers know when the person they wrote for didn’t give a gift. The writer will have the choice to give it to them anyway or to have it added to the group’s gift pile to be handed out to the giftless. I don’t think anyone who didn’t give gifts went on to publish their gift posts. So you may want to take that into consideration if you face yourself with that choice.&lt;/p&gt;
+
+&lt;h3 id=&quot;unpublished-gifts&quot;&gt;Unpublished gifts&lt;/h3&gt;
+&lt;p&gt;The biggest problem last year was that people didn’t publish the gifts they were given. This really disappointed the gift givers, who all put time into their posts. They didn’t get the satisfaction of seeing their post on the 2013 blogroll, even though it didn’t credit them. Mainly these unpublished givers were left thinking “my content isn’t good enough for you?” and had their experiences ruined.&lt;/p&gt;
+
+&lt;p&gt;What we’re doing about it is to return unpublished posts back the giver at a certain cutoff point. That will probably be the end January. The writer can then publish it themselves and get featured on the group’s blogroll.&lt;/p&gt;
+
+&lt;p&gt;We’ve returned some unpublished posts to their writers. If your gift wasn’t published and you want it back then get in touch.&lt;/p&gt;
+
+&lt;p&gt;We’ll also make it easier to add the published URL to your gift so it can feature on the blogroll. This will make it easier, but I don’t think this was an issue that stopped gifts getting published.&lt;/p&gt;
+
+&lt;h3 id=&quot;gifts-after-christmas&quot;&gt;Gifts after Christmas&lt;/h3&gt;
+&lt;p&gt;A happier problem we solved last year was that someone people missed the deadline to submit their gifts. When gifts were handed out at Christmas, everyone who hadn’t submitted a gift was emailed to let them know someone had missed out on a gift because of them.&lt;/p&gt;
+
+&lt;p&gt;Most people then wrote posts and we had to add a way for them to submit their gifts late. This worked well and most people were happy. We’ll continue the same thing this year.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-way-to-communicate&quot;&gt;No way to communicate&lt;/h3&gt;
+&lt;p&gt;True to Secret Santa tradition, matches were anonymous. There were times when people wanted to communicate with the people they were matched with. They may have wanted to find out more about the person they were writing for. Sometimes there were apologies for pulling out. Last year, these messages were ferried by Santa.&lt;/p&gt;
+
+&lt;p&gt;We also planning on adding anonymous communication between people and their giver and receiver. This will also be used to send messages to the group elf. The aim is to keep things anonymous and fun, as well as keeping things private like personal email addresses.&lt;/p&gt;
+
+&lt;p&gt;There will be a way to report abusive messages, because unfortunately combining the Internet and anonymity makes some people dicks.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How I migrated from Wordpress to Jekyll</title>
+   <link href="http://chadfield.org/work/how-i-migrated-wordpress-to-jekyll/"/>
+   <updated>2014-07-01T00:00:00+10:00</updated>
+   <id>http://chadfield.org/work/how-i-migrated-wordpress-to-jekyll</id>
+   <content type="html">&lt;p&gt;Last weekend I migrated my personal blog from &lt;a href=&quot;http://wordpress.org&quot; target=&quot;_blank&quot;&gt;Wordpress&lt;/a&gt; to &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;. I tweeted as I went
+to keep some sort of record of what I&#39;d done and the decisions I&#39;d
+made. I also hoped that anyone else wanting to do the same thing would
+find it helpful.&lt;/p&gt;
+
+&lt;p&gt;It all started because GoDaddy reminded me that my hosting was about to
+expire. I&#39;d been using Jekyll for the CS Workflow site and loved it.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;The hosting on &lt;a href=&quot;http://t.co/0WqTirL8Vw&quot;&gt;http://t.co/0WqTirL8Vw&lt;/a&gt; is about to expire so today
+I’ll be migrating from wordpress to jekyll and hosting on github&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482683466551541760&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That last part about hosting on Github isn&#39;t true. I hosted it on the
+&lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt; server.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-jekyll-and-why-use-it&quot;&gt;What is Jekyll and why use it?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a static site generator. A static site doesn&#39;t use any server
+side processing. Web browsers can easily handle static HTML, CSS, and
+Javascript. You&#39;ve seen this in action if you have ever double-clicked
+a .html file on your desktop and had it opened in your browser.&lt;/p&gt;
+
+&lt;p&gt;Jekyll uses a template, processing rules, and content to generate a
+static site. Each page of the site has its .html file. The HTML file,
+along with the stylesheets, scripts, and images, can be uploaded to any
+web server. There are tons of &lt;a href=&quot;https://www.google.com.au/search?q=hosting+static+website&quot; target=&quot;_blank&quot;&gt;ways to host static sites&lt;/a&gt; and almost all of them are free.&lt;/p&gt;
+
+&lt;p&gt;Wordpress, in comparison, uses PHP and MySQL to generate HTML each time
+a Wordpress page is viewed. The template is filled with content from the
+database, which is displayed by the browser. This only takes a few
+hundredths of a second.&lt;/p&gt;
+
+&lt;p&gt;Wordpress makes having a website really easy, especially is you use
+&lt;a href=&quot;http://wordpress.com&quot; target=&quot;_blank&quot;&gt;Wordpress.com&lt;/a&gt; and don&#39;t worry about your own
+hosting. Almost everything can be managed through the web-based admin
+console. You can be completely removed from everything technical, like
+HTML markup and installing plugins. Wordpress and platforms like it have
+allowed millions of people with no web development skills to have their
+own websites. That&#39;s a great thing!&lt;/p&gt;
+
+&lt;p&gt;Why bother with Jekyll then? Jekyll is faster. The site will be faster
+to use. Getting a new site setup is faster. Oh, and it supports Markdown
+by default. I love faster and I love Markdown, but the main reason I
+love Jekyll is that it puts me in total control over my entire site. I
+have instant access to style, layout, and content in a single text editor.
+I&#39;m using &lt;a href=&quot;https://atom.io/&quot; target=&quot;_blank&quot;&gt;Atom&lt;/a&gt; for my text editor at the
+moment, which I completely recommend.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s totally a preference thing and there is a skills barrier to Jekyll, so it&#39;s not for
+everyone.&lt;/p&gt;
+
+&lt;h3 id=&quot;exporting-from-wordpress&quot;&gt;Exporting from Wordpress&lt;/h3&gt;
+
+&lt;p&gt;Let&#39;s get on with it. The migration starts with exporting my content
+from Wordpress. I&#39;d seen in Jekyll&#39;s documentation that there is
+support for migrating. I started there, but the documentation wasn&#39;t
+very thorough and I imagined using their method would waste time.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;Jekyll’s migration docs for wordpress make me think there will be lots
+of messing around with exporting importing &lt;a href=&quot;http://t.co/Zc74OpukEI&quot;&gt;http://t.co/Zc74OpukEI&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482685148064780288&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Off to google to find a good guide. I didn&#39;t want to spend a lot of
+time or energy on this migration, so a good tutorial saves both. I
+recommend the &lt;a href=&quot;http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/&quot; target=&quot;_blank&quot;&gt;how-to guide on girliemac.com&lt;/a&gt;.
+This is what I followed. I&#39;ll assume your also using that as a
+reference and only chime in if I have something to add.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;This looks like a good how-to guide. I would have forgotten about
+exporting comments. &lt;a href=&quot;http://t.co/jIh9JmyHCW&quot;&gt;http://t.co/jIh9JmyHCW&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482685882965561344&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One of the first steps was to export comments to Disqus. I didn&#39;t have
+many comments, but I wanted to keep the few I had. I hadn&#39;t setup
+Disqus on a site before. It took than 3 minutes to complete the steps,
+going by the twitter timestamps.&lt;/p&gt;
+
+&lt;p&gt;Disqus had updated its export/import method and it was even easier that
+the way shown in the tutorial. Imports are queued and it took a few
+hours before mine were processed.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;Disqus is set up already. So easy. They’ve improved the exporting
+support so there are steps in the how-to I can skip.&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482686642310746113&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll&#39;s Wordpress exporter accessed the database remotely. The
+tutorial uses &lt;a href=&quot;https://github.com/benbalter/wordpress-to-jekyll-exporter&quot;&gt;wordpress-to-jekyll-exporter&lt;/a&gt;, a Wordpress plugin.
+This plugin isn&#39;t searchable in the Wordpress plugin directory. I
+uploaded the plugin zip file to the plugin folder using FTP. Then I used
+the plugin installer in my Wordpress admin console to unzip, install,
+and activate the plugin.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;Wordpress to jekyll exporter plugin installed. Export done in one
+click! &lt;a href=&quot;https://t.co/NiWVXZIlhX&quot;&gt;https://t.co/NiWVXZIlhX&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482687960865714176&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The export was done with one click on the &#39;Export to Jekyll&#39; link in
+the Wordpress console. This exported my posts and pages to Markdown. It
+also added any uploaded media to the export.&lt;/p&gt;
+
+&lt;p&gt;My only issue was that it used the .md Markdown extension instead of
+.markdown, which I prefer. I used
+the view/edit method in Filezilla and did a find and replace in the plugin file to change the .md
+to .markdown. I tried to use the plugin editor in the Wordpress console,
+but it went crazy when I tried to save the changes.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;The plugin uses .md instead of .markdown which I prefer. I’ve edited
+the plugin and exported again (in one click!)&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482688323618500608&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;All exported now to work on the template. I’ll use CS Workflow’s
+preview template builder to get the markup and css.
+&lt;a href=&quot;http://t.co/o9tY5rJQCz&quot;&gt;http://t.co/o9tY5rJQCz&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/482689963738161153&quot;&gt;June 28, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;setting-up-jekyll&quot;&gt;Setting up Jekyll&lt;/h3&gt;
+
+&lt;p&gt;I didn&#39;t export my template. I decided to redesign instead. This is
+where I wasted the most time. I looked at theme sites for inspiration.&lt;/p&gt;
+
+&lt;p&gt;I can&#39;t remember what I searched for, but I found &lt;a href=&quot;http://getpoole.com/&quot; target=&quot;_blank&quot;&gt;Poole&lt;/a&gt;, a Jekyll start kit built by Mark Otto of Bootstrap
+fame. Poole already looks pretty good, but has two themes. I used the
+&lt;a href=&quot;http://hyde.getpoole.com/&quot; target=&quot;_blank&quot;&gt;Hyde&lt;/a&gt; theme, which I made a few changes to.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Made the post header an H1. Originally it was an H2 with the site
+title (on the left column) always an H1.&lt;/li&gt;
+  &lt;li&gt;Changed the blog roll pagination directory from /page2/ to page/2/.&lt;/li&gt;
+  &lt;li&gt;Removed the pages menu from the left column. I only had the home page,
+so this was unnecessary.&lt;/li&gt;
+  &lt;li&gt;Removed the special font from the site title in the left and just went
+with the standard PT Sans.&lt;/li&gt;
+  &lt;li&gt;Added an avatar image for myself.&lt;/li&gt;
+  &lt;li&gt;Added social icons with links.&lt;/li&gt;
+  &lt;li&gt;Changed the related posts header from H3 to H4.&lt;/li&gt;
+  &lt;li&gt;Added a background cover image for the left column. I got the image
+from &lt;a href=&quot;http://nos.twnsnd.co/&quot; target=&quot;_blank&quot;&gt;this awesome photo resource&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Increased the font size of the post headers.&lt;/li&gt;
+  &lt;li&gt;Added a little clock icon next to the post dates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think that&#39;s it. All I needed to do was to copy and paste the export
+Markdown files into the &lt;code&gt;_posts&lt;/code&gt; directory and run &lt;code&gt;jekyll build&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;I went with Poole with the Hyde as a Jekyll foundation.
+&lt;a href=&quot;http://t.co/LB89E46M0s&quot;&gt;http://t.co/LB89E46M0s&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/483111061327863808&quot;&gt;June 29, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I needed to host the site myself because there are a few restrictions to
+hosting on Github. The main one that stopped me going with that option
+is not being able to use plugins. I use two plugins. The first is to
+&lt;a href=&quot;https://github.com/markets/jekyll-timeago&quot; target=&quot;_blank&quot;&gt;figure out how old&lt;/a&gt; my daughter is. This is
+displayed in my bio in the left column. Jekyll uses &lt;a href=&quot;http://docs.shopify.com/themes/liquid-basics&quot; target=&quot;_blank&quot;&gt;Liquid
+templates&lt;/a&gt;, but doesn&#39;t come with a timeago
+filter as standard. The second plugin is &lt;a href=&quot;https://github.com/ixti/jekyll-assets&quot; target=&quot;_blank&quot;&gt;jekyll-assets&lt;/a&gt;, which compiles the different stylesheets into a
+single, minified, gzipped, and cache-busting css file. This makes
+loading for the first time even faster.&lt;/p&gt;
+
+&lt;p&gt;To start, I created a new Github repository called
+&lt;a href=&quot;https://github.com/bchadfield/chadfield-blog&quot; target=&quot;_blank&quot;&gt;chadfield-blog&lt;/a&gt;. This gives me cloud-hosted
+source control using git. Github also makes deploying changes really
+easy. To get the site on to the server I sshed in and ran &lt;code&gt;git clone
+https://github.com/bchadfield/chadfield-blog.git&lt;/code&gt; from the directory I
+wanted to serve the site from. To get any future updates I run &lt;code&gt;git
+pull&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;By default Jekyll generates the site in the &lt;code&gt;_site&lt;/code&gt; folder. For CS
+Workflow I&#39;d set the build destination to a different directory which
+used its own git repository. This time I kept the source and generated
+site together.&lt;/p&gt;
+
+&lt;p&gt;The trade off of managing a single repository is that I&#39;m deploying the
+source files to the web server and not just the static site. I point the
+web server to &lt;code&gt;/chadfield-blog/_site&lt;/code&gt; instead of &lt;code&gt;/chadfield-blog&lt;/code&gt; and
+have a few extra kilobytes on the server.&lt;/p&gt;
+
+&lt;p&gt;All I needed to do was add the site to the Nginx config, restart Nginx,
+and point the domain name at the server IP address.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;nginx&quot;&gt;&lt;span class=&quot;k&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;server_name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;www.chadfield.org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;rewrite&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://chadfield.org&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$request_uri?&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;permanent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;server_name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;chadfield.org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/home/deployer/chadfield-blog/_site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;kn&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+  &lt;p&gt;Finished migrating my Wordpress blog to Jekyll. Here’s the result
+&lt;a href=&quot;http://t.co/mh7jjG3fpk&quot;&gt;http://t.co/mh7jjG3fpk&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;— Ben Chadfield (@benchadfield) &lt;a href=&quot;https://twitter.com/benchadfield/statuses/483111432959954944&quot;&gt;June 29, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;publishing-workflow&quot;&gt;Publishing workflow&lt;/h3&gt;
+
+&lt;p&gt;Obviously, the steps to get new content published is different to
+Wordpress. I&#39;ll lay out the steps needs and what I&#39;ve done to make it
+easier.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write a new post.&lt;/li&gt;
+  &lt;li&gt;Create a new Markdown file in the &lt;code&gt;_posts&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;Add meta-data and content to the Markdown file.&lt;/li&gt;
+  &lt;li&gt;Run &lt;code&gt;jekyll serve&lt;/code&gt; and test locally that everything is okay.&lt;/li&gt;
+  &lt;li&gt;Commit changes to git using &lt;code&gt;git add -A&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Push local git repository to Github using &lt;code&gt;git push origin master&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;ssh into the server and run &lt;code&gt;git pull&lt;/code&gt; in the site directory.&lt;/li&gt;
+  &lt;li&gt;Check on my site that the changes are okay.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I automate steps 5, 6, and 7 using a rakefile. I use &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt; to write, get reviews, and export meta-data to
+Markdown.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Commit changes to website repo&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:commit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Committing...&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;git add -A &amp;amp;&amp;amp; git commit -m &amp;#39;Site update&amp;#39; &amp;amp;&amp;amp; git push origin master&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Update code in production&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:update&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Updating production...&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;ssh user@server.com &amp;#39;cd site-directory &amp;amp;&amp;amp; git pull&amp;#39;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To use that copy into &lt;code&gt;rakefile.rb&lt;/code&gt; and change the ssh details and site
+directory. Then all I need to do is run &lt;code&gt;rake commit&lt;/code&gt; and &lt;code&gt;rake update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hopefully you found that helpful. There’s plenty of gaps, which is why I’ve called it
+titled it as how I migrated rather than a general how to. Really there’s not much to
+improve on the how to I referenced. Feel free to ask any questions or offer improvements
+I could make.&lt;/p&gt;
+
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Birthing a Content Strategy</title>
+   <link href="http://chadfield.org/work/birthing-a-content-strategy/"/>
+   <updated>2013-12-25T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/birthing-a-content-strategy</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;This post is part of a creative, generous effort in the content strategy community called &lt;a target=&quot;_blank&quot; href=&quot;http://secretsanta.csworkflow.com/&quot;&gt;Blog Secret Santa&lt;/a&gt;. Many thanks to &lt;a href=&quot;http://twitter.com/mbloomstein&quot;&gt;Margot Bloomstein&lt;/a&gt; for the &lt;a href=&quot;https://twitter.com/mbloomstein/status/395969851820220416&quot; target=&quot;_blank&quot;&gt;germ of the idea&lt;/a&gt;, and to Ben Chadfield for taking it to fruition, expanding it into a community of 50 content strategy bloggers. I am honored to have gotten Ben as my Blog Secret Santa outlet! – Currently anonymous guest blogger&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I always say that launching a website is like having a baby: There’s an amazing amount of preparation needed in advance, but once it launches you have this BABY that requires attention, guidance, discipline, and affection. Every. Single. Day. Since Ben is a new parent, I wanted to tie the two together.&lt;/p&gt;
+
+&lt;p&gt;For the most part, the post-launch work of any digital property is executing the content strategy. Therefore, the upfront effort to create a sound, smart content strategy is key to ongoing – and ideally, increasing – success for the site.&lt;/p&gt;
+
+&lt;p&gt;In the name of taking a metaphor to its logical conclusion, here are the four stages of birthing a content strategy:&lt;/p&gt;
+
+&lt;h3 id=&quot;phase-1-conception&quot;&gt;Phase 1. Conception&lt;/h3&gt;
+
+&lt;p&gt;A content strategy usually starts with a problem (the most common one in my experience being “no one can find anything on our site”), a redesign, or a new microsite. It’s followed by the decision to undertake the content strategy and getting the right resources in place. Then, voila – you’re on your way! (You can use your imagination in translating these concepts to conceiving a baby.)&lt;/p&gt;
+
+&lt;h3 id=&quot;phase-2-gestation&quot;&gt;Phase 2. Gestation&lt;/h3&gt;
+
+&lt;p&gt;Understanding the conditions: How do things work now (who is publishing content? who is reviewing it? what is causing the problems)? What is successful and where are improvements needed? After these are identified, they all need to be prioritized.&lt;/p&gt;
+
+&lt;p&gt;Formation: For a content strategy, this is the audit and the development of the editorial guidelines, voice and tone, lifecycle, and governance.&lt;/p&gt;
+
+&lt;p&gt;Refinement: To make sure the content strategy can actually survive, its elements need to be tested on real content and with real content authors.&lt;/p&gt;
+
+&lt;h3 id=&quot;phase-3-labor&quot;&gt;Phase 3. Labor&lt;/h3&gt;
+
+&lt;p&gt;Now it’s time to prepare for the content’s entry into the world. Where will the content guidelines be stored, and what’s the plan for ongoing communications, education, community, success stories, and reporting?&lt;/p&gt;
+
+&lt;h3 id=&quot;phase-4-delivery&quot;&gt;Phase 4. Delivery&lt;/h3&gt;
+
+&lt;p&gt;In addition to the launch of the new digital product, everyone involved in creating, reviewing, and publishing the content needs to know what the strategy is and how it will work. (If only parenting came with a rule book too!) They need to be held accountable for their input, their effort, and the results.&lt;/p&gt;
+
+&lt;p&gt;Congratulations: You are now the parent of a bouncing new website, and a shiny content strategy. Get ready – it will be a bumpy ride with loss of sleep, stressful moments, and even a few failures. But there will also be brilliant successes, swells of love, and rewards of all sizes and types along the way. Once you see the first glimmer of recognition (the website equivalent of that first true smile), you’ll know your efforts have been worthwhile!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>I&#8217;m not a content strategist</title>
+   <link href="http://chadfield.org/work/im-not-a-content-strategist/"/>
+   <updated>2013-12-03T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/im-not-a-content-strategist</id>
+   <content type="html">&lt;p&gt;Over the last dozen or so years I’ve worked for quite a few companies and on an uncountable (because who can remember) number of digital projects. As you would hope, I did learn things.&lt;/p&gt;
+
+&lt;p&gt;The problem is that I don’t know what I am. My role in CS Workflow is Founder. That just means that I do everything needed to get my startup out of obscurity.&lt;/p&gt;
+
+&lt;p&gt;This post, and any subsequent posts that follow the same title pattern, are explorations to try to figure out what I am. I figure looking at what I’m not is a good way to cross things off the list.&lt;/p&gt;
+
+&lt;p&gt;I’m starting with content strategy and the ‘ist’ of that for two reasons.&lt;/p&gt;
+
+&lt;p&gt;The first is Blog Secret Santa (&lt;a href=&quot;http://contentistheweb.com/magic-internet-santa/&quot; target=&quot;_blank&quot;&gt;read about how that got started&lt;/a&gt;). Being involved with a bunch of real deal content strategists, with the possibility of anonymously sharing content with one of them, showed that I’m not in that club. That’s not because I’m not welcome, but because their CS cred is so strong.&lt;/p&gt;
+
+&lt;p&gt;The other reason to start with this specialty is that I’m always looking for content strategists to share the CS Workflow message with. This feels a bit awkward to say, but there are a lot of people who inflate their content strategy expertise. I didn’t want to be one of those people falsely claiming the latest trendy skill set. It’s unfair to the real experts.&lt;/p&gt;
+
+&lt;p&gt;I create content, but I’m not a content strategist. I have even created content strategies, but I’m still not a content strategist. A content strategist, at least in my view, has a specialist focus in content strategy, either creating, managing execution or furthering the field.&lt;/p&gt;
+
+&lt;p&gt;There isn’t a single definition of content strategy. If you want a good description then check out the often referenced &lt;a href=&quot;http://alistapart.com/article/thedisciplineofcontentstrategy&quot; target=&quot;_blank&quot;&gt;The Discipline of Content Strategy&lt;/a&gt; by Kristina Halvorson.&lt;/p&gt;
+
+&lt;p&gt;I’m not comfortable claiming that specialty, because the most obvious attribute of the real deal content strategists is focus. It’s also obvious that this focus comes from passion for content strategy, and content in general. I share the passion, but not the focus.&lt;/p&gt;
+
+&lt;p&gt;At the moment, about 80% of my time is spent on the CS Workflow product. This is mainly development time, including gathering feedback and planning next steps. The remaining time I have is split between content and trying to get people to use the product.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I’m not in this alone. My lovely wife and partner, Vicky, is flying the content banner. Her background is in educational publishing. Her passion and focus is far more diverse than my own.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Through CS Workflow and working with Vicky, I might eventually become focused enough to call myself a content strategist. However, I can’t see our team dynamic changing, or a reduction in development work. With Vicky able to spend more and more time on content (did I mention we have a six-month-old daughter) my focus is likely to only shift more to the product.&lt;/p&gt;
+
+&lt;p&gt;Keep an eye out for the CS Workflow blog. The content we’ll produce aims to educate people about content strategy, particularly the workflow and governance component.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I love giving feedback</title>
+   <link href="http://chadfield.org/work/why-i-love-giving-feedback/"/>
+   <updated>2013-11-22T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/why-i-love-giving-feedback</id>
+   <content type="html">&lt;p&gt;I suck at following my own advice. &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow’s website&lt;/a&gt; is pretty bad, we’re not active on social media and the amount of content we’re producing is only slightly more than none (there’s good stuff in the pipeline).&lt;/p&gt;
+
+&lt;p&gt;I seem to forget the basics when working on my own projects. For an example on top of the one’s already given, I forgot to add authorisation to &lt;a href=&quot;http://secretsanta.csworkflow.com&quot; target=&quot;_blank&quot;&gt;Blog Secret Santa&lt;/a&gt; to stop people being able to edit each other’s account details. I fixed that a couple of hours after it went live, but still.&lt;/p&gt;
+
+&lt;p&gt;The point of this post wasn’t self deprecation, it was to remind myself of how much I get from giving other people feedback. I generally give feedback with the selfless intention of making the world better. I love startups, internet technologies and content, so don’t need any excuse to delve into those areas. From self deprecation to humble bragging…&lt;/p&gt;
+
+&lt;p&gt;I love giving feedback because it shames me into following my own advice. “I can’t say that if &lt;em&gt;I’m&lt;/em&gt; not doing it,” I think to myself. Giving feedback is a mirror to my own efforts.&lt;/p&gt;
+
+&lt;p&gt;Beyond self reflection is simple exercise. Flexing the thinking muscle &lt;a href=&quot;https://www.stephencovey.com/7habits/7habits-habit7.php&quot;&gt;sharpens the saw&lt;/a&gt; and give me new perspectives and inspiration&lt;/p&gt;
+
+&lt;p&gt;Beyond all self improvement is making and building friendships. Friends in need of feedback are friends indeed. Friends are great and the win-win of helping them with feedback is the winningest of the win-wins.&lt;/p&gt;
+
+&lt;p&gt;I’m rewriting CS Workflow’s website content because of giving feedback to on someone else’s website. This will lead to a redesign. Of course, the content updates are based on feedback selflessly shared by others. Thanks &lt;a href=&quot;http://worldcricketwatch.com&quot; target=&quot;_blank&quot;&gt;David Siddall&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MxDEJ&quot; target=&quot;_blank&quot;&gt;Max Johns&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What I learnt from my old boss that made me quit</title>
+   <link href="http://chadfield.org/work/what-i-learnt-from-my-old-boss-that-made-me-quit/"/>
+   <updated>2013-10-31T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/what-i-learnt-from-my-old-boss-that-made-me-quit</id>
+   <content type="html">&lt;p&gt;I resigned from my job nearly two months ago. We had recently hired someone that could easily step up into the vacancy I was leaving, so I could handover and be out of there quickly. There were lots of reasons for resigning. The main one was that my wife needed more help raising our baby daughter. Spending all that time at work, while my wife was struggling alone just didn’t make sense.&lt;/p&gt;
+
+&lt;p&gt;After a couple of months of being home with my family and working on getting &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt; ready for people to check out, I have had time to reflect.&lt;/p&gt;
+
+&lt;p&gt;There are three key lessons I learnt from my ex-boss. All three lessons contributed to me quitting.&lt;/p&gt;
+
+&lt;h3 id=&quot;there-is-no-tomorrow&quot;&gt;There is no tomorrow&lt;/h3&gt;
+
+&lt;p&gt;My boss used this phrase to create a sense of urgency. To me it meant to do whatever we were discussing right away. To do something right away, or as quickly as possible, I had to strip the task down to the bare essentials, so that no time was wasted. This would result in a balancing act of meeting the time expectations and putting something to the market that I could be happy with.&lt;/p&gt;
+
+&lt;p&gt;More often that not, my professional pride for crafting things to a high standard and with best practices didn’t matter as much I thought, going by the results. Usually that professional pride comes from imagining my peers judging my work.&lt;/p&gt;
+
+&lt;p&gt;“There is no tomorrow” forced me to focus on what’s important. In a small business that’s the customer and making sales as soon as possible. Waiting until tomorrow means one more day that revenue isn’t coming in.&lt;/p&gt;
+
+&lt;p&gt;This led me to resign because one more day of my wife struggling at home alone was one too many.&lt;/p&gt;
+
+&lt;p&gt;Act now.&lt;/p&gt;
+
+&lt;h3 id=&quot;have-the-end-in-mind&quot;&gt;Have the end in mind&lt;/h3&gt;
+
+&lt;p&gt;My boss used this phrase to remind me that everything needed a purpose. I am goal oriented anyway, but I like this phrasing.&lt;/p&gt;
+
+&lt;p&gt;It’s very easy to lose sight of the end when juggling lots of competing priorities with limited resources. The trap becomes doing whatever is necessary to check tasks off the list.&lt;/p&gt;
+
+&lt;p&gt;“Have the end in mind” links to the previous lesson, because it provides the context to be able to judge what is important.&lt;/p&gt;
+
+&lt;p&gt;This led me to resign because I knew as Marketing Director I could help achieve 10 times growth for his company. Achieving this would take at least two years of my life. The end would be everything I learnt along the way and the reputation of the achievement, which would make it easier for me to get my own company off the ground, which is my real goal.&lt;/p&gt;
+
+&lt;p&gt;However, why invest in his company when I can invest in my own company now. In two years the things I will have learnt on my own will be more relevant to my real goal. Starting a business now has big risks, but there is no guarantee that working with my boss would significantly increase my chances of success.&lt;/p&gt;
+
+&lt;p&gt;Know why.&lt;/p&gt;
+
+&lt;h3 id=&quot;be-brazen&quot;&gt;Be brazen&lt;/h3&gt;
+
+&lt;p&gt;This wasn’t a phrase used by my boss. It was how he acted and was clearly evident in the decisions he made.&lt;/p&gt;
+
+&lt;p&gt;For example, there’s a line in marketing that marks the edge of what’s considered acceptable by customers and prospects. Crossing that line can be damaging to a brand. My boss didn’t think about that line and pushed to go beyond it. Again, crossing that imaginary line never really mattered. In fact, the results were usually positive.&lt;/p&gt;
+
+&lt;p&gt;What I learnt was to be less fearful of taking risks and to not place arbitrary lines between possible and impossible.&lt;/p&gt;
+
+&lt;p&gt;This led to me resigning, because I stopped worrying about the perception and impact on my relationships at work. Instead, I let my actions be guided by my goals and decided to trust that my heart knew best.&lt;/p&gt;
+
+&lt;p&gt;Don’t be led by fear.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Be careful what you say about your competition</title>
+   <link href="http://chadfield.org/work/be-careful-what-you-say-about-your-competition/"/>
+   <updated>2013-06-23T00:00:00+10:00</updated>
+   <id>http://chadfield.org/work/be-careful-what-you-say-about-your-competition</id>
+   <content type="html">&lt;p&gt;People don’t like it when someone is attacked, especially when the attack seems unjustified or there’s an underdog being attacked. This is a reasonably common human trait that still operates in the world of business.&lt;/p&gt;
+
+&lt;p&gt;So, if you are up against a competitor with a prospective customer you should tread carefully. I’d recommend that your proposal talks about only about the way you’ll solve their problem. Remember that part of the problem they have is in choosing a solution amongst different vendors. Build trust in your brand and solution.&lt;/p&gt;
+
+&lt;p&gt;Don’t go cross the line into slamming the competition. This erodes trust very quickly. You don’t know the relationships the prospect has or where that information will end up. You had better hope all the facts you used about the competition are totally squared away.&lt;/p&gt;
+
+&lt;p&gt;Be a company others want to do business with. And stop helping the competition.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting selected text with Rails and Turbolinks</title>
+   <link href="http://chadfield.org/work/getting-selected-text-with-rails-and-turbolinks/"/>
+   <updated>2013-06-06T00:00:00+10:00</updated>
+   <id>http://chadfield.org/work/getting-selected-text-with-rails-and-turbolinks</id>
+   <content type="html">&lt;p&gt;I have to start by confessing that I don’t know what it is about Turbolinks that caused the issue I was having. I’m only edu-guessing that Turbolinks is the cause.&lt;/p&gt;
+
+&lt;p&gt;So…I needed to know the text that the user had selected with their cursor. This would be used to create context for the comment they wanted to make on the text. I started by using &lt;a href=&quot;http://stackoverflow.com/questions/5379120/get-the-highlighted-selected-text&quot; target=&quot;_blank&quot;&gt;a popular method I found on Stack Overflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getSelectionText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selection&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Control&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This worked fine in a static proof of concept. It also initially worked in my Rails project. By initially I mean after a browser refresh. As soon as I navigated to other pages and retested the function fell through and returned nothing. The rest of my javascript is fine. I am displaying a positioned button after text is selected and once clicked, the button performs an action with the selected text. This all works as expected.&lt;/p&gt;
+
+&lt;p&gt;I don’t know enough about the DOM or getSelection method to figure it out on my own. I set Google on it, which turned up a &lt;a href=&quot;http://www.codeproject.com/Articles/292159/Javascript-code-to-get-selected-text&quot; target=&quot;_blank&quot;&gt;different function from the rest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;GetSelectedText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;selectedText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getSelection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectedText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;selectedText&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;activeElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectionStart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;selectedText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;activeElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;activeElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectionStart&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;activeElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectionEnd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;selectedText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That is now working. Or at least it fixes my previous bug. It’s the nested if where selectedText is blank that solves it. I don’t like the if else in the selectedText initiation so I’m using the original function is start with.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My pillars of marketing strategy</title>
+   <link href="http://chadfield.org/work/my-pillars-of-marketing-strategy/"/>
+   <updated>2013-04-27T00:00:00+10:00</updated>
+   <id>http://chadfield.org/work/my-pillars-of-marketing-strategy</id>
+   <content type="html">&lt;p&gt;I keep coming back to the same three pillars when developing marketing strategies. This is regardless of industry, company size, customer type, and channel. These pillars are awareness, engagement and innovation. There’s nothing complicated or ground-breaking here, just a simple structure I like to work with.&lt;/p&gt;
+
+&lt;h3 id=&quot;awareness&quot;&gt;Awareness&lt;/h3&gt;
+
+&lt;p&gt;Awareness covers all growth-focused activities, like attracting new customers and spreading the brand. Examples are SEO, paid search and press releases. Success metrics depend on the business model, but could include new registrations, total site traffic, search traffic, or social mentions. And yes, those are vanity metrics. Awareness on its own won’t lead to success.&lt;/p&gt;
+
+&lt;h3 id=&quot;engagement&quot;&gt;Engagement&lt;/h3&gt;
+
+&lt;p&gt;Engagement covers all conversion and satisfaction-focused activities. Engagement aims to move customers further along from having some initial interest to being paid customers and beyond. Examples are having a sales website, customer support, trial onboarding experience, and educational newsletters. Generally success metrics are paying customers, monthly/weekly active users and satisfaction scores, like &lt;a href=&quot;http://en.wikipedia.org/wiki/Net_Promoter&quot; target=&quot;_blank&quot;&gt;net promoter score&lt;/a&gt;. Again this depends on the business model.&lt;/p&gt;
+
+&lt;h3 id=&quot;innovation&quot;&gt;Innovation&lt;/h3&gt;
+
+&lt;p&gt;Innovation is the positive reminder to solve my own problems. It’s very easy to copy what competitors are doing or what was in an article someone successful wrote. Common wisdom and current trends only go so far. Creativity and rigorous scientific execution are the next level shit.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;All very straight-forward. It’s all about answering these questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How will new people find out about my company?&lt;/li&gt;
+  &lt;li&gt;How will I convert them to customers and keep them happy?&lt;/li&gt;
+  &lt;li&gt;What best suits my budget, customers and company?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Attaching PDFs to emails with Prawn and Rails</title>
+   <link href="http://chadfield.org/work/attaching-pdfs-to-emails-with-prawn-and-rails/"/>
+   <updated>2013-03-31T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/attaching-pdfs-to-emails-with-prawn-and-rails</id>
+   <content type="html">&lt;p&gt;Yesterday I released a very simple tool to help copywriters get better briefs. I had a couple of days dev time up my sleeve while other parts of the main &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt; project are getting worked on.&lt;/p&gt;
+
+&lt;p&gt;What I ended up with was a simple signup for copywriters. This generates a token that, when part of a URL, associates the brief with the copywriter. The briefs are a tableless model and are only saved as an attached PDF that is sent to the copywriter. Simple.&lt;/p&gt;
+
+&lt;p&gt;I decided to use Prawn over the other options after watching the &lt;a href=&quot;http://railscasts.com/episodes/153-pdfs-with-prawn-revised&quot; target=&quot;_blank&quot;&gt;railscast&lt;/a&gt; (requires pro subscription) on the topic. It gave me the most control over the rendered PDF. For this project I used Rail 4.0.0.beta1.&lt;/p&gt;
+
+&lt;p&gt;To start I added Prawn to my Gemfile and ran bundle. The latest version was 0.12.0 at writing.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;prawn&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;~&amp;gt; 0.12.0&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I found out that through an error message that Rails 4 already has the PDF mimetype registered, so that part of the railscast can be skipped.&lt;/p&gt;
+
+&lt;p&gt;I rendered a test PDF in the browser so I could make sure it looked how I wanted before attaching it to an email. Refreshing the browser displayed the changes. To get this working I created a ‘test’ action in my briefs controller and added that as a route.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Brief&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_brief&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_by_email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;ben@csworkflow.com&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdf&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;pdf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;BriefPdf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;send_data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pdf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;brief_&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                            &lt;span class=&quot;ss&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;application/pdf&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                            &lt;span class=&quot;ss&quot;&gt;disposition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;inline&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Following the same pattern as the railscast, I created a &lt;a href=&quot;https://gist.github.com/bchadfield/5274166&quot; target=&quot;_blank&quot;&gt;BriefsPdf class&lt;/a&gt; that inherited from Prawn::Document. This initializes, taking the arguments, which are my objects, then calls methods that render boxes and text. It’s a bit hacked together, but you get the picture. I kept the &lt;a href=&quot;http://chadfield.org/assets/brief.pdf&quot; target=&quot;_blank&quot;&gt;testing output&lt;/a&gt;, so that’s what the class renders.&lt;/p&gt;
+
+&lt;p&gt;The biggest “gotcha” I came across was with using bounding boxes and text boxes. The cursor, which moves down the page as it renders, behaves differently with those boxes. I ran into trouble with my two bounding boxes, because if the cursor is moved to the bottom of the right box. If the left box is higher I got overlap. With text boxes the cursor doesn’t move down at all. You have to move it manually with move_down. This is fine if you know the height of the box. With user input you don’t have control. That’s why I’m not using text boxes.&lt;/p&gt;
+
+&lt;p&gt;The mailer is the simplest part of the whole process.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;send_brief&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brief&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;brief&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;brief_&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parameterize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;_&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;%Y%m%d&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.pdf&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;attachments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;BriefPdf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;mail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;ss&quot;&gt;cc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;ss&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;New brief from &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@brief&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I’m using a dynamic file name for the PDF, so the client and copywriter have a reference. The actual attachment is a single line.&lt;/p&gt;
+
+&lt;p&gt;There you have it. I’ll be using this same technique for creating invoices and subscription agreements.&lt;/p&gt;
+
+&lt;p&gt;Here’s the list of resources that guided me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://railscasts.com/episodes/153-pdfs-with-prawn-revised&quot; target=&quot;_blank&quot;&gt;Railscast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prawn.majesticseacreature.com/manual.pdf&quot; target=&quot;_blank&quot;&gt;Prawn documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_mailer_basics.html&quot; target=&quot;_blank&quot;&gt;Action Mailer guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/14429812&quot; target=&quot;_blank&quot;&gt;This stackoverflow answer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grads, where are your blogs?</title>
+   <link href="http://chadfield.org/work/grads-where-are-your-blogs/"/>
+   <updated>2013-03-21T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/grads-where-are-your-blogs</id>
+   <content type="html">&lt;p&gt;MailGuard is at the end of the hiring process for a new junior marketing assistant. We were looking for someone with less than a year’s experience to help with some cool stuff and be cheap. The candidates that made it to my desk had already made it past the first hurdle. I had a dozen or so applications to review.&lt;/p&gt;
+
+&lt;p&gt;Oh dear.&lt;/p&gt;
+
+&lt;p&gt;The best advice I can give is prove you are interested in the discipline you are being hired for. This applies ten times if you don’t have if any experience. A blog is the best way to do this because it shows me your personality, thought process and passions. Portfolios and Github commits show off your skills, but not who you are. When I’m hiring at this junior level, I’m looking for someone to mentor and invest time in. I only want to mentor someone that is interested and invested in their own development.&lt;/p&gt;
+
+&lt;p&gt;Your degree puts you on equal footing with everyone else. How are you proving that you’re better!?&lt;/p&gt;
+
+&lt;p&gt;I’ll make it easy for you. You only need to start blogging in your last year of studies. By this time you should know what kinds of jobs you want. Content matters, not design. Write about a topic you studied. Write about related news. Write about companies you like. Do that once a month.&lt;/p&gt;
+
+&lt;p&gt;Make me excited to get you in for an interview. Please.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Shutting down Dibbist: mistakes and lessons</title>
+   <link href="http://chadfield.org/work/shutting-down-dibbist-mistakes-and-lessons/"/>
+   <updated>2013-03-18T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/shutting-down-dibbist-mistakes-and-lessons</id>
+   <content type="html">&lt;p&gt;Recently I posted about the results of my &lt;a href=&quot;http://chadfield.org/work/my-experiment-with-cold-calling/&quot; title=&quot;My experiment with cold calling&quot; target=&quot;_blank&quot;&gt;cold call experiment&lt;/a&gt; for Dibbist. Last week I closed down the online appointment service. I made that decision because I had made a lot of mistakes and wanted to do it right with &lt;a href=&quot;http://csworkflow.com&quot; title=&quot;CS Workflow landing page&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt;. So what were these mistakes?&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;mistakes&quot;&gt;Mistakes&lt;/h2&gt;
+
+&lt;h3 id=&quot;not-understanding-assumptions&quot;&gt;Not understanding assumptions&lt;/h3&gt;
+
+&lt;p&gt;Dibbist was designed to bring the technologies and best practices of web and mobile development to small businesses. It allowed service businesses to take appointments and promote their services online. These are things that small businesses should be doing and care about. However, I didn’t look at the assumptions I’d made. Did businesses care? Were businesses looking for ways to improve their operations and marketing? The reality was that both assumptions were false. The businesses in my segment were focused on serving their clients and not on technology or marketing.&lt;/p&gt;
+
+&lt;p&gt;The funny thing is that I didn’t even consider I was making assumptions. From my perspective, I was building a service that was needed, whether prospects knew it or not. Success was just a matter of effective marketing. This led to a poor product-market fit. It even meant I didn’t have a clear market. This was the biggest mistake by far and could really be the summary of Dibbist’s failure.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;unconfirmed-marketing-channels&quot;&gt;Unconfirmed marketing channels&lt;/h3&gt;
+
+&lt;p&gt;I’m a product guy, so I focused on where I felt comfortable. I did have a plan to attract traffic through SEO, blogging and reaching out to industry associations. But before launch I made no effort to build traffic or understand how associations worked. Bad move. Building traffic takes time. Associations are generally administrative outfits and aren’t focused on helping their members. Instead they prefer you to advertise, which is very expensive when compared to online advertising.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;unbalanced-co-founder-commitment&quot;&gt;Unbalanced co-founder commitment&lt;/h3&gt;
+
+&lt;p&gt;My co-founder worked full-time and wasn’t able to commit much time to Dibbist. This meant I had all the downsides of having a co-founder (conflicting opinions, reduced equity) and none of the upsides (shared workload, support). My co-founder was a long-time friend, who I felt I couldn’t fire. We had also a simple partnership, which meant 50/50 ownership, with no vesting or other provisions.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;lessons&quot;&gt;Lessons&lt;/h2&gt;
+
+&lt;p&gt;Some of the lessons are direct responses to my mistakes and some are things I wish I knew a year ago.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;work-through-assumptions&quot;&gt;Work through assumptions&lt;/h3&gt;
+
+&lt;p&gt;Assumptions need to be identified and assessed before doing anything. This is a scientific process of stating the hypotheses and methods to test them. Everyone that knows anything understands this. However, very few people do it. Almost everyone I know involved in startups have untested assumptions, or think assumptions will be sorted out at launch. After Dibbist, and a few other projects, I now won’t do anything until all key assumptions are confirmed to be true. Any assumptions proved false mean a rethink and a pivot.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;talk-to-customers&quot;&gt;Talk to customers&lt;/h3&gt;
+
+&lt;p&gt;This is part of working through assumptions, but also has so many benefits beyond that. I’m naturally shy and reserved, with some fear of talking to people I don’t know. In my mind it’s going to be awkward and I’ll come off looking stupid. I didn’t talk to customers at all with Dibbist. I started doing it with CS Workflow and everyone that I’ve reached out to has been really nice and helpful. I’ve asked what some pretty stupid questions, but have only received supportive. This is now my favourite part of building a startup.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;build-an-audience&quot;&gt;Build an audience&lt;/h3&gt;
+
+&lt;p&gt;I’m completely onboard with building an audience as most effective marketing method. I’m working on this now, and learning as I go. I’m focused on adding value and communicating with my small audience as much as possible.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;be-a-one-man-band&quot;&gt;Be a one man band&lt;/h3&gt;
+
+&lt;p&gt;Since my experience with Dibbist I’ve been very cautious about co-founding. I’ve quit projects where the co-founder relationship isn’t ideal. Now it’s so unlikely that I will find a suitable co-founder that I’m not even going to try. I also don’t feel like I need one. I have a pretty good support network of experts and advisors. My wife, Vicky, helps to lighten the workload. For me, going solo is the ultimate in bootstrapping.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;have-a-clear-strategy&quot;&gt;Have a clear strategy&lt;/h3&gt;
+
+&lt;p&gt;A clear strategy sets the direction against which all decisions and priorities can be tested. This is how I make sure I don’t waste time. There are so many distractions and so much advice that unless I ruthlessly stick to my vision weeks can fly by without any progress made.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;know-your-brand&quot;&gt;Know your brand&lt;/h3&gt;
+
+&lt;p&gt;Most people think brand is about logo and colour scheme. Brand is really about the identity of your company. I think this important because it creates a personality and set of values that I can get behind and promote. Without a defined brand there’s a tendency to fill the void with the founders own values, which may or may not align well with the expectation of the market.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;design-is-about-user-flows&quot;&gt;Design is about user flows&lt;/h3&gt;
+
+&lt;p&gt;I had the privilege of working with some great UX specialists. This biggest thing I picked up is to focus on user flow through the use cases. Doing this, instead of starting with wireframes, creates a more comprehensive solution that makes sense from start to finish.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;These are the main lessons from my year with Dibbist that have been seared on my brain. I plan to write a series of posts to cover these topics and more in more detail. I’ll focus on the one man band theme. The aim is to help others and get feedback from more experienced people to build up my own knowledge.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CS Workflow is now taking registrations of interest</title>
+   <link href="http://chadfield.org/work/cs-workflow-is-now-taking-registrations-of-interest/"/>
+   <updated>2013-03-14T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/cs-workflow-is-now-taking-registrations-of-interest</id>
+   <content type="html">&lt;p&gt;Copywriters can now register their interest for &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;CS Workflow&lt;/a&gt;. You can do that here: &lt;a href=&quot;http://csworkflow.com&quot; target=&quot;_blank&quot;&gt;http://csworkflow.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m building an application specially for copywriters to make the review and approval process as painless as possible. If you’re a copywriter or have managed content projects, you’ll know how hard it is to get good feedback from reviewers and compile all that feedback into changes.&lt;/p&gt;
+
+&lt;p&gt;CS Workflow will manage the process, guiding and teaching reviewers how to give great feedback. It is a web-based application, so it accessible from any Internet-enabled device. Integration with other services and platforms is straightforward, making importing and publishing content easy.&lt;/p&gt;
+
+&lt;p&gt;This service is inspired by a blog post by my good friend Max Johns about &lt;a href=&quot;http://contentistheweb.com/giving-and-receiving-expert-feedback-on-web-copy&quot; target=&quot;_blank&quot;&gt;giving and receiving web copy feedback&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next step is a closed beta to perfect the feature set and process flow. Register you interest to receive an invite.&lt;/p&gt;
+
+&lt;p&gt;Feedback is always welcome and I’d love to hear more stories about your specific review situation. Email me at ben@csworkflow.com&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My experiment with cold calling</title>
+   <link href="http://chadfield.org/work/my-experiment-with-cold-calling/"/>
+   <updated>2013-03-02T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/my-experiment-with-cold-calling</id>
+   <content type="html">&lt;p&gt;My first real product was launched last year. &lt;a href=&quot;https://www.dibbist.com&quot; target=&quot;_blank&quot;&gt;Dibbist&lt;/a&gt; is an online appointment system for small businesses. I’ve failed to attract any subscribers and I know all the reasons why. I’ll do an more in depth post about what I did wrong. This post is about my cold calling experiment for Dibbist.&lt;/p&gt;
+
+&lt;p&gt;I have connections to an owner of a small &lt;a href=&quot;http://en.wikipedia.org/wiki/Business_process_outsourcing&quot; target=&quot;_blank&quot;&gt;BPO&lt;/a&gt; (business process outsourcing) company. BPOs are always looking for ways to make money. One way is to find an easy to sell product and cold call to a script, taking commission on generated leads. My connection was happy to see if it was possible to sell Dibbist. The purpose of the cold call was to propose a trial to the contacts. This was pretty straight forward. I created a call flow and a detailed fact sheet that provided everything someone would need to talk through the product.&lt;/p&gt;
+
+&lt;p&gt;The arrangement was $2 for each generated lead (someone agreeing to a trial), plus $1 if the lead actually signed in. 20% commission would be paid if the lead when on to subscribe. The commission would apply to the first year of the subscription.&lt;/p&gt;
+
+&lt;p&gt;I already had contact lists from scraping the national yellow pages. This gave me phone numbers, and for some websites and email addresses. I went through the lists and pulled out any businesses from the list that both fit Dibbist and I could find a contact name.&lt;/p&gt;
+
+&lt;p&gt;During the 3 day trial the agent called 159 contacts. 13 agreed to a trial. 2 of those 13 provided fake email addresses.&lt;/p&gt;
+
+&lt;p&gt;I provisioned the 11 leads in Dibbist and sent a welcome email, which guides them to log in to their account. None have. 1 of the contacted businesses did come and check out the site.&lt;/p&gt;
+
+&lt;p&gt;Obviously this was a failure, but it was really interesting. Going through the contact list gave me a really good idea about the businesses in the market I was going after. I’d made assumptions that this research proved wrong.&lt;/p&gt;
+
+&lt;p&gt;The main thing this campaign confirmed is &lt;a href=&quot;http://www.blueglass.com/blog/how-to-build-an-audience/&quot; target=&quot;_blank&quot;&gt;build an audience&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PeepCode&#8217;s Ember tutorial is essential</title>
+   <link href="http://chadfield.org/work/peepcodes-ember-tutorial-is-essential/"/>
+   <updated>2013-02-16T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/peepcodes-ember-tutorial-is-essential</id>
+   <content type="html">&lt;p&gt;From my previous post on &lt;a href=&quot;http://chadfield.org/work/my-progress-with-learning-mongo-and-ember&quot; target=&quot;_blank&quot;&gt;my learning progress&lt;/a&gt;, you’ll know I was running through a few Ember tutorials. Through these I learnt a bit, but I wasn’t grasping Ember’s MVC concept with the single model example apps. I was starting to feel like an idiot.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, an off topic comment on &lt;a href=&quot;http://news.ycombinator.com&quot; target=&quot;_blank&quot;&gt;Hacker News&lt;/a&gt; lead to me pointing out the tutorial limitations. A kind gentleman pointed me to the &lt;a href=&quot;https://peepcode.com/products/emberjs&quot; target=&quot;_blank&quot;&gt;Ember tutorial&lt;/a&gt; on &lt;a href=&quot;https://peepcode.com&quot; target=&quot;_blank&quot;&gt;PeepCode&lt;/a&gt;. It was obvious from the description that this was exactly what I needed. There were screenshots of an example app with multiple associated models in the same view. Perfect.&lt;/p&gt;
+
+&lt;p&gt;Now that I’ve finished passively watching the lesson (not coding along), I know perfect is the perfect description. The tutorial didn’t only show how to create a multi-model app. That’s what I thought I needed. I really needed a solid explanation of the Ember basics. I needed to properly understand Ember’s MVC concept. I needed to be shown the automagic of Ember’s non-coding.&lt;/p&gt;
+
+&lt;p&gt;Summary: If you’re new to Ember start with &lt;a href=&quot;https://peepcode.com/products/emberjs&quot; target=&quot;_blank&quot;&gt;PeepCode’s Ember tutorial&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Waiting to meet my daughter</title>
+   <link href="http://chadfield.org/life/waiting-to-meet-my-daughter/"/>
+   <updated>2013-02-02T00:00:00+11:00</updated>
+   <id>http://chadfield.org/life/waiting-to-meet-my-daughter</id>
+   <content type="html">&lt;p&gt;About 10 days have past since we found out that we’re having a girl. We were waiting for over 3 months to find out. Waiting until the birth didn’t make sense. I still can’t imagine what it’s going to be like having this new person in our life. I’ve managed to avoid being around babies more almost my entire life. Vicky will make sure I’m not useless, and her family will be living in Melbourne by the time she’s due. That’s June, by the way. June 12th at this stage.&lt;/p&gt;
+
+&lt;p&gt;While I can’t imagine how our baby is going to change our lives, I do know I feel about it. I can imagine the presence of this perfect bundle of life’s potential. I can imagine the love, the joy and the challenges that will make life worthwhile and meaningful.&lt;/p&gt;
+
+&lt;p&gt;I can’t wait to meet you, darling&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My progress with learning Mongo and Ember</title>
+   <link href="http://chadfield.org/work/my-progress-with-learning-mongo-and-ember/"/>
+   <updated>2013-02-02T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/my-progress-with-learning-mongo-and-ember</id>
+   <content type="html">&lt;p&gt;I’ve spent about 16 hours running through tutorials, reading and rebuilding &lt;a href=&quot;http://www.poopee.com.au&quot; target=&quot;_blank&quot;&gt;Poopee&lt;/a&gt;. This post will cover what I’ve learnt so far and how.&lt;/p&gt;
+
+&lt;p&gt;Poopee currently uses a MySQL database fronted by PHP that returns XML. The front-end is JQuery. My aim is to rebuild it with Mongo and Ember.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-hrefhttpwwwmongodborg-targetblankmongodba&quot;&gt;&lt;a href=&quot;http://www.mongodb.org/&quot; target=&quot;_blank&quot;&gt;MongoDB&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I’m comfortable with Mongo. I run through a basic &lt;a href=&quot;http://tutorial.mongly.com/tutorial/index&quot; target=&quot;_blank&quot;&gt;interactive tutorial&lt;/a&gt; at &lt;a href=&quot;http://mongly.com&quot; target=&quot;_blank&quot;&gt;Mongly&lt;/a&gt;. The main reason I wanted to use Mongo was that it had a simple way to handle &lt;a href=&quot;http://docs.mongodb.org/manual/core/geospatial-indexes/&quot; target=&quot;_blank&quot;&gt;geospatial queries&lt;/a&gt;. This was covered by Mongly with a &lt;a href=&quot;http://tutorial.mongly.com/geo/index&quot; target=&quot;_blank&quot;&gt;geospatial tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next step was to learn how to use Mongo as part of an API. &lt;a href=&quot;http://coenraets.org/blog/&quot; target=&quot;_blank&quot;&gt;Christophe Coenraets&lt;/a&gt; has a good two-part tutorial on how to build a simple site with &lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot;&gt;Node.js&lt;/a&gt;, &lt;a href=&quot;http://expressjs.com/&quot; target=&quot;_blank&quot;&gt;Express&lt;/a&gt;, Mongo and &lt;a href=&quot;http://backbonejs.org/&quot; target=&quot;_blank&quot;&gt;Backbone&lt;/a&gt;. The first part is a good guide on &lt;a href=&quot;http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/&quot; target=&quot;_blank&quot;&gt;building the API&lt;/a&gt;, which I followed. The second is really a link to a github repository for the finished product. I used the first post to build the API for Poopee. That included importing the lastest batch of Australian Toilet data. Importing the XML data was the single task that I spent the most time on.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-hrefhttpemberjscom-targetblankembera&quot;&gt;&lt;a href=&quot;http://emberjs.com/&quot; target=&quot;_blank&quot;&gt;Ember&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Outside the day and a half I spent on the API, I read about the good, bad and the ugly of pretty much every javascript framework I could find. I settled on Ember as the framework that I’d tackle. Ember is popular enough to have documentation and good tutorials. The decision was a toss-up between &lt;a href=&quot;http://angularjs.org/&quot; target=&quot;_blank&quot;&gt;Angular&lt;/a&gt; and Ember. I rejected Angular because I didn’t like the way it extended HTML. I prefer to keep my HTML clean. Obviously, I can change my mind later, once I delve deeper into Ember. It’s highly likely I’ll end up using Backbone for Poopee, because it’s such a straight forward web app.&lt;/p&gt;
+
+&lt;p&gt;So far, I’ve spent my time coming to grips with the new (to me) concepts in Ember. After reading the &lt;a href=&quot;http://emberjs.com/guides/&quot; target=&quot;_blank&quot;&gt;Ember guides&lt;/a&gt;, the article/tutorial that I saw recommended was &lt;a href=&quot;http://trek.github.com/&quot; target=&quot;_blank&quot;&gt;Advice on &amp;#038; Instruction in the Use Of Ember.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next step is to run the &lt;a href=&quot;http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html&quot; target=&quot;_blank&quot;&gt;Ember and Rails tutorials&lt;/a&gt;. The concept that I struggled with was how the API connection worked with the routing. I’m expecting this tutorial to help me understand that.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The hurdle to a Capistrano deploy and setup on a new micro EC2 Ubuntu instance</title>
+   <link href="http://chadfield.org/work/the-hurdle-to-a-capistrano-deploy-and-setup-on-a-new-micro-ec2-ubuntu-instance/"/>
+   <updated>2013-01-26T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/the-hurdle-to-a-capistrano-deploy-and-setup-on-a-new-micro-ec2-ubuntu-instance</id>
+   <content type="html">&lt;p&gt;At the end of last year I set myself the challenge of getting &lt;a href=&quot;https://github.com/capistrano/capistrano&quot; target=&quot;_blank&quot;&gt;Capistrano&lt;/a&gt; to deploy updates for &lt;a href=&quot;https://www.dibbist.com&quot; target=&quot;_blank&quot;&gt;Dibbist&lt;/a&gt;. Two previous attempts had tripped up on the same Rake issues. It was something to do with my server setup and I didn’t want to start from scratch.&lt;/p&gt;
+
+&lt;p&gt;You may have seen &lt;a href=&quot;https://twitter.com/OnlineBen/status/275134571937398784&quot; target=&quot;_blank&quot;&gt;my tweet&lt;/a&gt; announcing that I’d been successful, so you’ll know I go it working. I did for Dibbist and even more recently repeated the same process for another project I’m helping out with. This post isn’t a tutorial on deploying from scratch with Capistrano. I learnt by watching the excellent Railscasts (referenced in my success tweet) about Capistrano. Episode #375 links to the recipes I used. Why no details? These screencasts are part of the paid section of Railscasts and I’m not going to cut someone’s lunch, especially Ryan Bates.&lt;/p&gt;
+
+&lt;p&gt;This post is about the hurdle I faced twice when following the Railscasts process. Obviously to get a Rails app working you need Ruby installed on the server. The problem I found was that the micro instance took ages to install Ruby. The connection to the server would freeze and Capistrano would just sit there waiting forever for the install to finish. If you looked at the instance activity in the AWS console you’d see that the CPU had finished with compiling and installing.&lt;/p&gt;
+
+&lt;p&gt;The solution is to install Ruby manually at the same time you setup the Deployer user. This will still have the issue with the connection freezing, but once the CPU is finished you’re done. Just remove the Ruby install from the recipes and run.&lt;/p&gt;
+
+&lt;p&gt;The setup I’m currently using for Dibbist is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EC2 micro instance of Ubuntu 12.04&lt;/li&gt;
+  &lt;li&gt;Nginx redirecting all to https&lt;/li&gt;
+  &lt;li&gt;Unicorn with 2 workers&lt;/li&gt;
+  &lt;li&gt;Postgres&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cementing the lesson about identifying the core problem</title>
+   <link href="http://chadfield.org/work/cementing-the-lesson-about-identifying-the-core-problem/"/>
+   <updated>2013-01-10T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/cementing-the-lesson-about-identifying-the-core-problem</id>
+   <content type="html">&lt;p&gt;Sometimes you explain a principle in a simple way that makes it both memorable and easy to understand. Sometimes when when you make this explanation you cement the principle in a new, deep way for yourself. I did this the other day when defending using carefully crafted web copy to sell products instead of feature lists. I was attempting to show that selling a product based on the problem it solves is not a way to trick customers into purchasing.&lt;/p&gt;
+
+&lt;p&gt;I used the example of selling water. We all know what water is and why we use it. Listing the features of water looks like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A clear fluid&lt;/li&gt;
+  &lt;li&gt;2 parts hydrogen&lt;/li&gt;
+  &lt;li&gt;1 part oxygen&lt;/li&gt;
+  &lt;li&gt;Becomes a solid at 0°C&lt;/li&gt;
+  &lt;li&gt;Becomes a gas at 100°C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This isn’t useful.  People are looking for solutions to their problems. One of the key things water solves is thirst. There are other things that quench thirst, but nothing as natural as good old fresh water. Instead of a features list a better copy could be, “The healthiest way to quench your thirst.”&lt;/p&gt;
+
+&lt;p&gt;That makes the principle easy to understand. The key is understanding the problem, which can be a lot of hard work. Never assume you know the problem. Confirming the problem is a big part of the initial customer development and that’s the lesson I want to cement for myself.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My Goals for 2013</title>
+   <link href="http://chadfield.org/life/my-goals-for-2013/"/>
+   <updated>2013-01-09T00:00:00+11:00</updated>
+   <id>http://chadfield.org/life/my-goals-for-2013</id>
+   <content type="html">&lt;p&gt;This is my list of personal development goals for the next 12 months. I want them to be as far from new year’s resolutions as possible. I want my goals to be as &lt;a href=&quot;http://en.wikipedia.org/wiki/SMART_criteria&quot; target=&quot;_blank&quot;&gt;smart&lt;/a&gt; as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-comfortable-with-a-javascript-mv-framework&quot;&gt;Get comfortable with a javascript MV* framework&lt;/h2&gt;
+
+&lt;p&gt;I’ve played with Meteor and Backbone, but want to get beyond playing and get to the point where I can create a reasonably complex thick-client app. The aim will be to develop skills that mean I can use different frameworks.&lt;/p&gt;
+
+&lt;p&gt;I’ll start this by rebuilding &lt;a href=&quot;http://www.poopee.com.au&quot;&gt;Poopee&lt;/a&gt; from scratch. This is a simple single-page map-based web app that allows Australians to find public toilets. The end of March will be my arbitrary deadline.&lt;/p&gt;
+
+&lt;h2 id=&quot;lose-15-kilograms&quot;&gt;Lose 15 kilograms&lt;/h2&gt;
+
+&lt;p&gt;This is as resolutiony as you get, but as I get older I’m more concerned about the effects of poor health decisions. Losing my extra weight is simply the end result of an wider focus on eating better. For me, eating better really means cutting the snacks. I generally eat well. When I compare myself to people I know, I eat really well. The extras add up though.&lt;/p&gt;
+
+&lt;p&gt;The aim will be to lose 10kgs by June and the rest by the end of the year.&lt;/p&gt;
+
+&lt;h2 id=&quot;launch-a-revenue-generating-web-application&quot;&gt;Launch a revenue generating web application&lt;/h2&gt;
+
+&lt;p&gt;This will be the project that takes up the whole year. It was inspired by Nathan Barry’s &lt;a href=&quot;http://nathanbarry.com/starting-web-app-challenge/&quot; target=&quot;_blank&quot;&gt;web app challenge&lt;/a&gt;. I’ll be aiming for the same $5,000/month, with a deadline of the end of 2013. This isn’t a challenge in the sense that I’m doing for the sake of it. My aim is the apply everything I learnt from &lt;a href=&quot;https://www.dibbist.com&quot; target=&quot;_blank&quot;&gt;Dibbist&lt;/a&gt; and create a successful, low-touch income generator. I won’t be keeping a public log of my progress.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How I Want To Be Treated By Brands On Social Media</title>
+   <link href="http://chadfield.org/work/how-i-want-to-be-treated-by-brands-on-social-media/"/>
+   <updated>2012-12-28T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/how-i-want-to-be-treated-by-brands-on-social-media</id>
+   <content type="html">&lt;p&gt;During my honeymoon in Malaysia I was reminded of the way I wanted businesses to act on social media. Brands should be reaching out to consumers to try to keep or steal their loyalty.&lt;/p&gt;
+
+&lt;p&gt;While walking the streets in Penang, My wife and I had to constantly reject offers for taxi and rickshaw rides. This sounds annoying and any model replicating it would be spammy, but not if applied responsibly to social media.&lt;/p&gt;
+
+&lt;p&gt;Firstly, when I say social media I’m referring to Facebook and Twitter. What I’m talking about mainly applies to Twitter, because it’s mainly public and the tools exist to easily monitor activity in real-time. Secondly, in my example of Penang, each new street and street corner is a new marketplace with no record of previous offers or my response. Social media is a persistent and single marketplace. Brands can see what their competitors have offers and how I’ve responded.&lt;/p&gt;
+
+&lt;p&gt;Lastly, and most importantly, the taxi drivers had seen a problem and were offering a solution. Us being hot and sweaty was the problem and the ride was the solution. This is the fleshy part of my point. People publicly post their problems and brands have the opportunity to address them directly.&lt;/p&gt;
+
+&lt;p&gt;Australia has a few mobile service providers, each with varying degrees of customer support and mobile service. The main providers are active on Twitter. I’ve seen countless tweets complaining about one thing or another. These tweets get apologies and promises. What I want to see more of is the competition responding and trying to steal business for themselves. National Australia Bank did this aimed at complaints about home loans with good success, but it was ad hoc and not a dedicated part of social operations.&lt;/p&gt;
+
+&lt;p&gt;Here’s how I’d do it if I was setting this up:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aim to keep customers and steal new ones from competitors.&lt;/li&gt;
+  &lt;li&gt;Respond quickly to create a happy surprise. Quickly really means immediately, which may mean setting up automated responses.&lt;/li&gt;
+  &lt;li&gt;Initial response to non-customers should let them know “we’re here and we care.”&lt;/li&gt;
+  &lt;li&gt;Initial response to customers has to address the problem with how and when it’ll be solved. This can be achieved by having the appropriate employee calling the customer.&lt;/li&gt;
+  &lt;li&gt;If automation is used then phrases needed to be targeted instead of keyword to avoid awkward responses. It’d better to miss opportunities than look stupid. All follow ups have to be personal.&lt;/li&gt;
+  &lt;li&gt;If competitors aren’t active then there’s free reign to poach their customers.&lt;/li&gt;
+  &lt;li&gt;If competitors are active then be aggressive. Remember it’s a crowded market. Get that business.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What I learnt from the Instagram TOS drama</title>
+   <link href="http://chadfield.org/work/what-i-learnt-from-the-instagram-tos-drama/"/>
+   <updated>2012-12-19T00:00:00+11:00</updated>
+   <id>http://chadfield.org/work/what-i-learnt-from-the-instagram-tos-drama</id>
+   <content type="html">&lt;p&gt;Today a wide range of media jumped on the fact that the new terms seemed allow Instagram to sell your photos to advertisers and keep all the profits. Certain parts of the terms backed up this possibility and caused mass outrage. The key lesson I picked up is that when announcing legal changes to a service the company needs to go through the main changes and address their intent.&lt;/p&gt;
+
+&lt;p&gt;With all the legal documents I’ve created or negotiated the language rarely matches intent. Legal language is harsh because it’s written to butt-cover if things go bad. Because they are skewed to protect the company that wrote them they can seem really unfair to the other party. Instagram did &lt;a href=&quot;http://blog.instagram.com/post/38252135408/thank-you-and-were-listening&quot; target=&quot;_blank&quot;&gt;explain the intent&lt;/a&gt; behind their changes. This explanation came too late, the news cycles were already running and opinions already set.&lt;/p&gt;
+
+&lt;p&gt;Here is the lesson: announce your intent along with the legal changes. Don’t let the media, who profit from outrage, fill the vacuum with worst-case analysis.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Honeymoon in Malaysia</title>
+   <link href="http://chadfield.org/life/honeymoon-in-malaysia/"/>
+   <updated>2012-11-18T00:00:00+11:00</updated>
+   <id>http://chadfield.org/life/honeymoon-in-malaysia</id>
+   <content type="html">&lt;p&gt;A collection of images I posted on &lt;a href=&quot;http://instagram.com/chappie/&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; taken while on my lovely honeymoon in Malaysia.&lt;/p&gt;
+
+&lt;h3 id=&quot;kuala-lumpur&quot;&gt;Kuala Lumpur&lt;/h3&gt;
+
+&lt;div class=&quot;image&quot;&gt;
+  &lt;div class=&quot;caption&quot;&gt;
+    Dudes making dumplings in a glass box.
+  &lt;/div&gt;
+  
+  &lt;p&gt;
+    &lt;img alt=&quot;Dudes making dumplings in a glass box&quot; src=&quot;http://distilleryimage3.s3.amazonaws.com/64ff961426c811e2ac8422000a1fbf16_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+        Coconut drink at some Thai BBQ joint.
+      &lt;/div&gt;
+      
+      &lt;p&gt;
+        &lt;img alt=&quot;Coconut drink at some Thai BBQ joint&quot; src=&quot;http://distilleryimage6.s3.amazonaws.com/3a7b159826c911e2b97522000a1e8903_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            Vicky at temple
+          &lt;/div&gt;
+          
+          &lt;p&gt;
+            &lt;img alt=&quot;Vicky at temple&quot; src=&quot;http://distilleryimage11.s3.amazonaws.com/9d50d822272a11e2844022000a1f9adf_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+              &lt;div class=&quot;caption&quot;&gt;
+                Wall at the temple.
+              &lt;/div&gt;
+              
+              &lt;p&gt;
+                &lt;img alt=&quot;Wall at the temple&quot; src=&quot;http://distilleryimage2.s3.amazonaws.com/dfa66052272a11e2952122000a1fbf2e_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                  &lt;div class=&quot;caption&quot;&gt;
+                    The aftermath of Malaysian lunch. @ Madam Kwan&amp;#8217;s
+                  &lt;/div&gt;
+                  
+                  &lt;p&gt;
+                    &lt;img alt=&quot;The aftermath of Malaysian lunch. @ Madam Kwan&#39;s&quot; src=&quot;http://distilleryimage1.s3.amazonaws.com/1e83ab2c272b11e2bba622000a1fbc9c_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                      &lt;div class=&quot;caption&quot;&gt;
+                        Pouring down in KL this afternoon.
+                      &lt;/div&gt;
+                      
+                      &lt;p&gt;
+                        &lt;img alt=&quot;Pouring down in KL this afternoon&quot; src=&quot;http://distilleryimage4.s3.amazonaws.com/93a6044a272b11e299b1123138151070_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                          &lt;div class=&quot;caption&quot;&gt;
+                            Final dish after too many to count. Okay it was 11 dishes. @ Village Roast Duck
+                          &lt;/div&gt;
+                          
+                          &lt;p&gt;
+                            &lt;img alt=&quot;Final dish after too many to count. Okay it was 11 dishes. @ Village Roast Duck&quot; src=&quot;http://distilleryimage6.s3.amazonaws.com/cb06830c274811e2a47b22000a1f99e6_7.jpg&quot; /&gt;  &lt;h3&gt;
+                              Penang
+                            &lt;/h3&gt;
+                            
+                            &lt;div class=&quot;image&quot;&gt;
+                              &lt;div class=&quot;caption&quot;&gt;
+                                Vicky going in a colourful sculpted Hindu temple @ Penang Hill
+                              &lt;/div&gt;
+                              
+                              &lt;p&gt;
+                                &lt;img alt=&quot;Vicky going in a colourful sculpted Hindu temple @ Penang Hill&quot; src=&quot;http://distilleryimage10.s3.amazonaws.com/c3ea0670298711e2aae322000a1e9bb5_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                                  &lt;div class=&quot;caption&quot;&gt;
+                                    36.5m tall statue of the Goddess of Mercy @ Kek Lok Si Temple
+                                  &lt;/div&gt;
+                                  
+                                  &lt;p&gt;
+                                    &lt;img alt=&quot;36.5m tall statue of the Goddess of Mercy @ Kek Lok Si Temple&quot; src=&quot;http://distilleryimage3.s3.amazonaws.com/064ab47e298811e286b922000a9f14cd_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                                      &lt;div class=&quot;caption&quot;&gt;
+                                        Yesterday was hot. Hot and sweaty. @ Fort Cornwallis
+                                      &lt;/div&gt;
+                                      
+                                      &lt;p&gt;
+                                        &lt;img alt=&quot;Yesterday was hot. Hot and sweaty. @ Fort Cornwallis&quot; src=&quot;http://distilleryimage1.s3.amazonaws.com/1509f532298911e286531231381b3c35_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                                          &lt;div class=&quot;caption&quot;&gt;
+                                            The narrow corridor we walk down when leaving the hotel
+                                          &lt;/div&gt;
+                                          
+                                          &lt;p&gt;
+                                            &lt;img alt=&quot;The narrow corridor we walk down when leaving the hotel&quot; src=&quot;http://distilleryimage7.s3.amazonaws.com/7ccb2ece2a6b11e2ba8122000a1de2e1_7.jpg&quot; /&gt;  &lt;h3&gt;
+                                              Langkawi
+                                            &lt;/h3&gt;
+                                            
+                                            &lt;div class=&quot;image&quot;&gt;
+                                              &lt;div class=&quot;caption&quot;&gt;
+                                                Balcony view just before sunset
+                                              &lt;/div&gt;
+                                              
+                                              &lt;p&gt;
+                                                &lt;img alt=&quot;Balcony view just before sunset&quot; src=&quot;http://distilleryimage9.s3.amazonaws.com/069fbc642e5411e29ca422000a1faf19_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                                                  &lt;div class=&quot;caption&quot;&gt;
+                                                    Last honeymoon sunrise as seen from bed.
+                                                  &lt;/div&gt;
+                                                  
+                                                  &lt;p&gt;
+                                                    &lt;img alt=&quot;Last honeymoon sunrise as seen from bed&quot; src=&quot;http://distilleryimage6.s3.amazonaws.com/65ce7028304211e2b70422000a9d0df6_7.jpg&quot; /&gt;  &lt;div class=&quot;image&quot;&gt;
+                                                      &lt;div class=&quot;caption&quot;&gt;
+                                                        Our house on the sea for the last week
+                                                      &lt;/div&gt;
+                                                      
+                                                      &lt;p&gt;
+                                                        &lt;img alt=&quot;Our house on the sea for the last week&quot; src=&quot;http://distilleryimage5.s3.amazonaws.com/39fdecae304b11e2839c123138190d76_7.jpg&quot; /&gt;  &lt;h3&gt;
+                                                          Back home
+                                                        &lt;/h3&gt;
+                                                        
+                                                        &lt;div class=&quot;image&quot;&gt;
+                                                          &lt;div class=&quot;caption&quot;&gt;
+                                                            1/2 kilo of salty peanut butter chocolate sugar bombs. But wait there&amp;#8217;s more&amp;#8230;
+                                                          &lt;/div&gt;
+                                                          
+                                                          &lt;p&gt;
+                                                            &lt;img alt=&quot;1/2 kilo of salty peanut butter chocolate sugar bombs. But wait there&#39;s more&quot; src=&quot;http://distilleryimage6.s3.amazonaws.com/ff46644c311c11e2aeb222000a1f9e7e_7.jpg&quot; /&gt; 
+&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+
+</feed>

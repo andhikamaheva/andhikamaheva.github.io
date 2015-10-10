@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="A blog">
+  <meta name="author" content="Ben Chadfield">
+
+  <title>
+    
+      Ben Chadfield &middot; A blog
+    
+  </title>
+
+  <link rel="stylesheet" href="/assets/application-69e7e23bca522e04ab6f812fa7dda4c5.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400,400italic,700">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <img src="/assets/images/ben.jpg" alt="Picture of me" class="avatar" />
+      
+        <h1><a href="/">Ben Chadfield</a></h1>
+      
+      <p class="bio">
+        Co-founder of <a href="http://csworkflow.com">CS Workflow</a>.
+        Also <a href="http://secretsanta.csworkflow.com">Blog Secret Santa</a> and
+        <a href="http://www.meetup.com/Content-Strategy-Melbourne/">Content Strategy Melbourne meetup</a>.
+        Lots of content and coding. My daughter is 1 year old.
+      </p>
+    </div>
+
+    <div class="social-links">
+      <ul>
+        <li><a href="https://twitter.com/benchadfield"><span class="icon-twitter"></span></a></li>
+        <li><a href="http://facebook.com/benchadfield"><span class="icon-facebook"></span></a></li>
+        <li><a href="http://au.linkedin.com/in/benchadfield"><span class="icon-linkedin"></span></a></li>
+        <li><a href="https://github.com/bchadfield"><span class="icon-github-circled"></span></a></li>
+        <li><a href="http://www.youtube.com/user/kaliblack"><span class="icon-youtube"></span></a></li>
+      </ul>
+    </div>
+
+    <!-- <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    </nav> -->
+
+    <p class="copyright">&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="posts">
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/life/waiting-to-meet-my-daughter/">
+        Waiting to meet my daughter
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>02 February 2013</span>
+
+    <p>About 10 days have past since we found out that we’re having a girl. We were waiting for over 3 months to find out. Waiting until the birth didn’t make sense. I still can’t imagine what it’s going to be like having this new person in our life. I’ve managed to avoid being around babies more almost my entire life. Vicky will make sure I’m not useless, and her family will be living in Melbourne by the time she’s due. That’s June, by the way. June 12th at this stage.</p>
+
+<p>While I can’t imagine how our baby is going to change our lives, I do know I feel about it. I can imagine the presence of this perfect bundle of life’s potential. I can imagine the love, the joy and the challenges that will make life worthwhile and meaningful.</p>
+
+<p>I can’t wait to meet you, darling</p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/my-progress-with-learning-mongo-and-ember/">
+        My progress with learning Mongo and Ember
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>02 February 2013</span>
+
+    <p>I’ve spent about 16 hours running through tutorials, reading and rebuilding <a href="http://www.poopee.com.au" target="_blank">Poopee</a>. This post will cover what I’ve learnt so far and how.</p>
+
+<p>Poopee currently uses a MySQL database fronted by PHP that returns XML. The front-end is JQuery. My aim is to rebuild it with Mongo and Ember.</p>
+
+<h3 id="a-hrefhttpwwwmongodborg-targetblankmongodba"><a href="http://www.mongodb.org/" target="_blank">MongoDB</a></h3>
+
+<p>I’m comfortable with Mongo. I run through a basic <a href="http://tutorial.mongly.com/tutorial/index" target="_blank">interactive tutorial</a> at <a href="http://mongly.com" target="_blank">Mongly</a>. The main reason I wanted to use Mongo was that it had a simple way to handle <a href="http://docs.mongodb.org/manual/core/geospatial-indexes/" target="_blank">geospatial queries</a>. This was covered by Mongly with a <a href="http://tutorial.mongly.com/geo/index" target="_blank">geospatial tutorial</a>.</p>
+
+<p>The next step was to learn how to use Mongo as part of an API. <a href="http://coenraets.org/blog/" target="_blank">Christophe Coenraets</a> has a good two-part tutorial on how to build a simple site with <a href="http://nodejs.org/" target="_blank">Node.js</a>, <a href="http://expressjs.com/" target="_blank">Express</a>, Mongo and <a href="http://backbonejs.org/" target="_blank">Backbone</a>. The first part is a good guide on <a href="http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/" target="_blank">building the API</a>, which I followed. The second is really a link to a github repository for the finished product. I used the first post to build the API for Poopee. That included importing the lastest batch of Australian Toilet data. Importing the XML data was the single task that I spent the most time on.</p>
+
+<h3 id="a-hrefhttpemberjscom-targetblankembera"><a href="http://emberjs.com/" target="_blank">Ember</a></h3>
+
+<p>Outside the day and a half I spent on the API, I read about the good, bad and the ugly of pretty much every javascript framework I could find. I settled on Ember as the framework that I’d tackle. Ember is popular enough to have documentation and good tutorials. The decision was a toss-up between <a href="http://angularjs.org/" target="_blank">Angular</a> and Ember. I rejected Angular because I didn’t like the way it extended HTML. I prefer to keep my HTML clean. Obviously, I can change my mind later, once I delve deeper into Ember. It’s highly likely I’ll end up using Backbone for Poopee, because it’s such a straight forward web app.</p>
+
+<p>So far, I’ve spent my time coming to grips with the new (to me) concepts in Ember. After reading the <a href="http://emberjs.com/guides/" target="_blank">Ember guides</a>, the article/tutorial that I saw recommended was <a href="http://trek.github.com/" target="_blank">Advice on &#038; Instruction in the Use Of Ember.js</a>.</p>
+
+<p>The next step is to run the <a href="http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html" target="_blank">Ember and Rails tutorials</a>. The concept that I struggled with was how the API connection worked with the routing. I’m expecting this tutorial to help me understand that.</p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/the-hurdle-to-a-capistrano-deploy-and-setup-on-a-new-micro-ec2-ubuntu-instance/">
+        The hurdle to a Capistrano deploy and setup on a new micro EC2 Ubuntu instance
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>26 January 2013</span>
+
+    <p>At the end of last year I set myself the challenge of getting <a href="https://github.com/capistrano/capistrano" target="_blank">Capistrano</a> to deploy updates for <a href="https://www.dibbist.com" target="_blank">Dibbist</a>. Two previous attempts had tripped up on the same Rake issues. It was something to do with my server setup and I didn’t want to start from scratch.</p>
+
+<p>You may have seen <a href="https://twitter.com/OnlineBen/status/275134571937398784" target="_blank">my tweet</a> announcing that I’d been successful, so you’ll know I go it working. I did for Dibbist and even more recently repeated the same process for another project I’m helping out with. This post isn’t a tutorial on deploying from scratch with Capistrano. I learnt by watching the excellent Railscasts (referenced in my success tweet) about Capistrano. Episode #375 links to the recipes I used. Why no details? These screencasts are part of the paid section of Railscasts and I’m not going to cut someone’s lunch, especially Ryan Bates.</p>
+
+<p>This post is about the hurdle I faced twice when following the Railscasts process. Obviously to get a Rails app working you need Ruby installed on the server. The problem I found was that the micro instance took ages to install Ruby. The connection to the server would freeze and Capistrano would just sit there waiting forever for the install to finish. If you looked at the instance activity in the AWS console you’d see that the CPU had finished with compiling and installing.</p>
+
+<p>The solution is to install Ruby manually at the same time you setup the Deployer user. This will still have the issue with the connection freezing, but once the CPU is finished you’re done. Just remove the Ruby install from the recipes and run.</p>
+
+<p>The setup I’m currently using for Dibbist is:</p>
+
+<ul>
+  <li>EC2 micro instance of Ubuntu 12.04</li>
+  <li>Nginx redirecting all to https</li>
+  <li>Unicorn with 2 workers</li>
+  <li>Postgres</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/work/cementing-the-lesson-about-identifying-the-core-problem/">
+        Cementing the lesson about identifying the core problem
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>10 January 2013</span>
+
+    <p>Sometimes you explain a principle in a simple way that makes it both memorable and easy to understand. Sometimes when when you make this explanation you cement the principle in a new, deep way for yourself. I did this the other day when defending using carefully crafted web copy to sell products instead of feature lists. I was attempting to show that selling a product based on the problem it solves is not a way to trick customers into purchasing.</p>
+
+<p>I used the example of selling water. We all know what water is and why we use it. Listing the features of water looks like this:</p>
+
+<ul>
+  <li>A clear fluid</li>
+  <li>2 parts hydrogen</li>
+  <li>1 part oxygen</li>
+  <li>Becomes a solid at 0°C</li>
+  <li>Becomes a gas at 100°C</li>
+</ul>
+
+<p>This isn’t useful.  People are looking for solutions to their problems. One of the key things water solves is thirst. There are other things that quench thirst, but nothing as natural as good old fresh water. Instead of a features list a better copy could be, “The healthiest way to quench your thirst.”</p>
+
+<p>That makes the principle easy to understand. The key is understanding the problem, which can be a lot of hard work. Never assume you know the problem. Confirming the problem is a big part of the initial customer development and that’s the lesson I want to cement for myself.</p>
+
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/life/my-goals-for-2013/">
+        My Goals for 2013
+      </a>
+    </h2>
+
+    <span class="post-date"><span class="icon-clock"></span>09 January 2013</span>
+
+    <p>This is my list of personal development goals for the next 12 months. I want them to be as far from new year’s resolutions as possible. I want my goals to be as <a href="http://en.wikipedia.org/wiki/SMART_criteria" target="_blank">smart</a> as possible.</p>
+
+<h2 id="get-comfortable-with-a-javascript-mv-framework">Get comfortable with a javascript MV* framework</h2>
+
+<p>I’ve played with Meteor and Backbone, but want to get beyond playing and get to the point where I can create a reasonably complex thick-client app. The aim will be to develop skills that mean I can use different frameworks.</p>
+
+<p>I’ll start this by rebuilding <a href="http://www.poopee.com.au">Poopee</a> from scratch. This is a simple single-page map-based web app that allows Australians to find public toilets. The end of March will be my arbitrary deadline.</p>
+
+<h2 id="lose-15-kilograms">Lose 15 kilograms</h2>
+
+<p>This is as resolutiony as you get, but as I get older I’m more concerned about the effects of poor health decisions. Losing my extra weight is simply the end result of an wider focus on eating better. For me, eating better really means cutting the snacks. I generally eat well. When I compare myself to people I know, I eat really well. The extras add up though.</p>
+
+<p>The aim will be to lose 10kgs by June and the rest by the end of the year.</p>
+
+<h2 id="launch-a-revenue-generating-web-application">Launch a revenue generating web application</h2>
+
+<p>This will be the project that takes up the whole year. It was inspired by Nathan Barry’s <a href="http://nathanbarry.com/starting-web-app-challenge/" target="_blank">web app challenge</a>. I’ll be aiming for the same $5,000/month, with a deadline of the end of 2013. This isn’t a challenge in the sense that I’m doing for the sake of it. My aim is the apply everything I learnt from <a href="https://www.dibbist.com" target="_blank">Dibbist</a> and create a successful, low-touch income generator. I won’t be keeping a public log of my progress.</p>
+
+
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page/5">Older</a>
+  
+  
+    
+      <a class="pagination-item newer" href="/page/3">Newer</a>
+    
+  
+</div>
+    </div>
+    
+    	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37077125-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+  </body>
+</html>
