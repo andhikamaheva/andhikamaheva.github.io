@@ -6,8 +6,9 @@ excerpt: "Perkenalkan nama saya adalah <strong>Andhika Maheva Wicaksono</strong>
 modified: 2015-10-11
 tags: [andhikamaheva, tentang saya, andhika maheva wicaksono, programmer indonesia]
 comments: true
+thumb : cover_twit.jpg
 image:
-  thumb : /images/cover_twit.jpg
+  
   feature:
   credit:
   creditlink:
