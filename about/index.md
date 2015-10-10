@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About Me
-tags: [about, Jekyll, theme, responsive]
+tags: [andhikamaheva, tentang saya, andhika maheva wicaksono, programmer indonesia]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
+  thumb : /images/cover_twit.jpg
   feature:
   credit: andhikamaheva
   creditlink: http://andhikamaheva.com/about
