@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "andhikamaheva.com merupakan personal blog yang berisi informasi seputar pemrograman, tips & trick serta cerita menarik khas mahasiswa"
+tags: [andhikamaheva.com, andhika maheva wicaksono, andhikamaheva, tulisan mahasiswa biasa, cerita mahasiswa, belajar pemrograman, laravel, laravel indonesia]
 image:
-  feature: 
+  feature:
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
