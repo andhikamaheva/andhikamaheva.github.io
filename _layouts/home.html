@@ -34,7 +34,7 @@
   </div>
   <div id="index">
 
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:7 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -44,7 +44,7 @@
         <i class="fa fa-clock-o"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         <img src="{{ post.image-post }}">
         <br>
-        <p>{{ post.excerpt | strip_html  }} <b><a href="{{ post.url }}" style="text-decoration:none;">Baca Selengkapnya</a></b></p>
+        <p>{{ post.excerpt | strip_html  }} <b><a href="{{ post.url }}" style="text-decoration:none;">Baca Selengkapnya...</a></b></p>
       {% endif %}
 
     </article>
