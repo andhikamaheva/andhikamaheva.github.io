@@ -22,12 +22,12 @@ image:
 
 
  <figure>
- 	<a href="http://img.prntscr.com/img?url=http://i.imgur.com/n1RVJiY.png"><img src="http://img.prntscr.com/img?url=http://i.imgur.com/n1RVJiY.png"></a>
+ 	<a href="http://i.imgur.com/n1RVJiY.png"><img src="http://i.imgur.com/n1RVJiY.png"></a>
  	<figcaption>Email CS BCA</a>.</figcaption>
  </figure>
 
  <figure>
- 	<a href="http://img.prntscr.com/img?url=http://i.imgur.com/iVrXj5f.png"><img src="http://img.prntscr.com/img?url=http://i.imgur.com/iVrXj5f.png"></a>
+ 	<a href="http://i.imgur.com/iVrXj5f.png"><img src="http://i.imgur.com/iVrXj5f.png"></a>
  	<figcaption>Email CS BCA (cont.)</a>.</figcaption>
  </figure>
 
