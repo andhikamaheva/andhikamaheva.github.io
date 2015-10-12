@@ -8,11 +8,10 @@
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="article:author" content="https://www.facebook.com/andhikamaheva" />
 <meta property="article:publisher" content="https://www.facebook.com/andhikamaheva" />
-<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/dsc05356.jpg{% endif %}">
 {% if page.image.feature %}
 <meta property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
 {% else %}
-
+<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/dsc05356.jpg{% endif %}">
 {% endif %}
 
 <!-- Twitter Cards -->
