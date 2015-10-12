@@ -2,7 +2,7 @@
 layout: post
 title: "Solusi Key BCA Terblokir / Lock"
 image-post : /images/bca.jpg
-excerpt: "Nah pada kesempatan kali ini saya akan menuliskan beberapa artikel tentang bahasa pemrograman java. Jadi buat kawan - kawan sekalian yang ingin belajar pemrograman java, berikut ini akan saya sampaikan mulai dari dasar bahasa pemrograman java hingga nanti masuk kedalam OOP (Object Oriented Programming) dengan menggunakan java sekaligus menerapkan konsep database ke dalam java."
+excerpt: "Nggak terasa udah beberapa hari ini saya tidak ngepost artikel semenjak perpindahan domain dan hosting . :D Pada kesempatan berbahagia ini saya akan membagikan pengalaman yang baru saja saya lalui pada hari ini (18/03/2015). Tak lain tak bukan sesuai dengan judul postingan ini yaitu mengenai <strong>Key BCA yang terblokir atau ter-lock.</strong>"
 tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
 comments: true
 image:
