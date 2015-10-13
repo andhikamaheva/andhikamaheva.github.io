@@ -2,7 +2,8 @@
 layout: page
 title: About Me
 tags: [andhikamaheva, tentang saya, andhika maheva wicaksono, programmer indonesia]
-modified: 2014-08-08T20:53:07.573882-04:00
+excerpt: "Perkenalkan nama saya adalah <strong>Andhika Maheva Wicaksono</strong>, saya lahir di Trenggalek pada tanggal 21 April 1995. Pendidikan saya dimulai di SDN 2 Surondakan pada tahun 2001 kemudian melanjutkan kejenjang SMP yaitu di SMPN 3 Trenggalek pada tahun 2007 dan SMAN 1 Trenggalek pada tahun 2010.
+"
 comments: true
 image:
   thumb : cover_twit.jpg
@@ -34,15 +35,15 @@ Jangan lupa follow juga beberapa <em>account </em>saya di :
 
 <br>
 
-<a href="https://twitter.com/andhikamaheva" ><img style="pading-bottom:10px"  src="https://aaaandhika.files.wordpress.com/2015/01/social38.png?w=150" alt="https://twitter.com/andhikamaheva" width="32" height="32" /></a> <a title="@andhikamaheva" href="http://twitter.com/andhikamaheva" target="_blank" style="text-decoration:none">@andhikamaheva</a>
+<a href="https://twitter.com/andhikamaheva"><img src="https://aaaandhika.files.wordpress.com/2015/01/social38.png?w=150" alt="https://twitter.com/andhikamaheva" width="32" height="32" /></a> <a title="@andhikamaheva" href="http://twitter.com/andhikamaheva" target="_blank" style="text-decoration:none">@andhikamaheva</a>
 <br>
 <br>
 
-<a href="http://andhikamaheva.tumblr.com" " rel="attachment wp-att-23"><img style="pading-bottom:10px  src="https://aaaandhika.files.wordpress.com/2015/01/tumblr9.png?w=150" alt="http://andhikamaheva.tumblr.com" width="30" height="30" /></a> <a title="andhikamaheva" href="http://andhikamaheva.tumblr.com" target="_blank" style="text-decoration:none">andhikamaheva</a>
+<a href="http://andhikamaheva.tumblr.com" rel="attachment wp-att-23"><img  src="https://aaaandhika.files.wordpress.com/2015/01/tumblr9.png?w=150" alt="http://andhikamaheva.tumblr.com" width="30" height="30" /></a> <a title="andhikamaheva" href="http://andhikamaheva.tumblr.com" target="_blank" style="text-decoration:none">andhikamaheva</a>
 <br>
 <br>
 
-<a href="https://aaaandhika.files.wordpress.com/2015/01/facebook24.png" style="pading-bottom:10px"><img  src="https://aaaandhika.files.wordpress.com/2015/01/facebook24.png?w=150" alt="https://www.facebook.com/andhikamaheva" width="27" height="27" /></a><a title="Andhika Maheva Wicaksono" href="https://www.facebook.com/andhikamaheva" target="_blank" style="text-decoration:none"> Andhika Maheva Wicaksono</a>
+<a href="https://aaaandhika.files.wordpress.com/2015/01/facebook24.png"><img  src="https://aaaandhika.files.wordpress.com/2015/01/facebook24.png?w=150" alt="https://www.facebook.com/andhikamaheva" width="27" height="27" /></a><a title="Andhika Maheva Wicaksono" href="https://www.facebook.com/andhikamaheva" target="_blank" style="text-decoration:none"> Andhika Maheva Wicaksono</a>
 
 <br>
 Terima Kasih :-)
