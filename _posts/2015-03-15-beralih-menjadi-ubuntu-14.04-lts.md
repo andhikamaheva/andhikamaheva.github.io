@@ -4,7 +4,7 @@ title: Beralih Menjadi Ubuntu 14.04 LTS
 image-post : /images/ubuntu.png
 modified : 2015-10-11
 excerpt: "Setelah sekian lama (Beberapa hari sebenernya sih :D ) saya tidak membuat postingan, akhirnya di hari ini saya kembali membuat sebuah postingan. Postingan saya pada kali ini adalah tentang <strong>Linux Ubuntu 14.04.1 LTS."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, ubuntu indonesia, andhikamaheva.com]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, ubuntu indonesia, andhikamaheva.com]
 comments: true
 image:
   thumb : ubuntu.png
