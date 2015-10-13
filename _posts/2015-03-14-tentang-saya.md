@@ -3,7 +3,7 @@ layout: post
 title: Tentang Saya
 image-post : /images/cover_twit.jpg
 excerpt: "Perkenalkan nama saya adalah <strong>Andhika Maheva Wicaksono</strong>, saya lahir di Trenggalek pada tanggal 21 April 1995. Pendidikan saya dimulai di SDN 2 Surondakan pada tahun 2001 kemudian melanjutkan kejenjang SMP yaitu di SMPN 3 Trenggalek pada tahun 2007 dan SMAN 1 Trenggalek pada tahun 2010."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, andhikamaheva.com]
 comments: true
 
 image:

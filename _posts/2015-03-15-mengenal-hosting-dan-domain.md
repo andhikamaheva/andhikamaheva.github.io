@@ -3,7 +3,7 @@ layout: post
 title: Mengenal Hosting dan Domain
 excerpt: "Halo ,
 Dalam kesempatan hari ini saya akan share mengenai hosting dan domain . Banyak defisni mengenai hosting dan domain itu sendiri . Secara general dan umum agar mudah dipahami definisi hosting dan domain dapat diartikan sebagai berikut"
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, harga hosting, hosting murah, andhikamaheva.com]
 comments: true
 image:
   thumb : blog-posting-tips.png

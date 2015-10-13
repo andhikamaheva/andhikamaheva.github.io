@@ -3,7 +3,7 @@ layout: post
 title: "Belajar Bahasa Pemrograman Java : Introduce"
 image-post : /images/programmer.jpg
 excerpt: "Nah pada kesempatan kali ini saya akan menuliskan beberapa artikel tentang bahasa pemrograman java. Jadi buat kawan - kawan sekalian yang ingin belajar pemrograman java, berikut ini akan saya sampaikan mulai dari dasar bahasa pemrograman java hingga nanti masuk kedalam OOP (Object Oriented Programming) dengan menggunakan java sekaligus menerapkan konsep database ke dalam java."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, java, andhikamaheva.com]
 comments: true
 image:
   thumb : programmer.jpg

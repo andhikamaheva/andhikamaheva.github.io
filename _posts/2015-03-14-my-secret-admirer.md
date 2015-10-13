@@ -3,7 +3,7 @@ layout: post
 title: My Secret Admirer
 image-post : /images/secret_admirer.jpg
 excerpt: "Dia sedang duduk disudut sana. Sendiri, hanya bertemankan sebuah ponsel yang bermerek mahal yang bahkan segelintir orang disekolah ini yang memilikinya. Bagaimana aku harus memulai? Apakah hanya diam seperti ini itu cukup untuk mengenalnya lebih jauh seperti yang aku inginkan? Pertanyaan itu selalu menghampiriku seraya mataku sesekali meliriknya."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, cerpen cinta, andhikamaheva.com]
 comments: true
 image:
   thumb : secret_admirer.jpg

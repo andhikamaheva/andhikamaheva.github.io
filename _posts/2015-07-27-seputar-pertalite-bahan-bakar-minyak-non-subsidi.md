@@ -3,7 +3,7 @@ layout: post
 title: "Seputar Pertalite Bahan Bakar Minyak Non Subsidi"
 image-post : /images/Seputar-Pertalite-BBM-Non-Subsidi.jpg
 excerpt: "Tepat hari ini senin 27 Juli 2015 aku mencoba untuk menggunakan BBM baru dari Pertamina yang bernama Pertalite. Seperti yang diberitakan di media masa, bahwasanya Pertalite merupakan bahan bakar minyak yang nantinya akan menggantikan keberadaan Premium. Nah, untuk dua bulan kedepan Pertamina mengadakan uji coba terkait penjualan serta kualitas dari Pertalite."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, pertalite, harga pertalite, andhikamaheva.com]
 comments: true
 image:
   thumb : Seputar-Pertalite-BBM-Non-Subsidi.jpg

@@ -3,7 +3,7 @@ layout: post
 title: "Solusi Key BCA Terblokir / Lock"
 image-post : /images/bca.jpg
 excerpt: "Nggak terasa udah beberapa hari ini saya tidak ngepost artikel semenjak perpindahan domain dan hosting . :D Pada kesempatan berbahagia ini saya akan membagikan pengalaman yang baru saja saya lalui pada hari ini (18/03/2015). Tak lain tak bukan sesuai dengan judul postingan ini yaitu mengenai <strong>Key BCA yang terblokir atau ter-lock.</strong>"
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, key bca terblokir, key bca, bca, bank bca, andhikamaheva.com]
 comments: true
 image:
   thumb : bca.jpg

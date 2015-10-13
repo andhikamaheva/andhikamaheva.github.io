@@ -3,7 +3,7 @@ layout: post
 title: Kenapa Jadi Programmer ?
 image-post : /images/programmer.jpg
 excerpt: "Dia sedang duduk disudut sana. Sendiri, hanya bertemankan sebuah ponsel yang bermerek mahal yang bahkan segelintir orang disekolah ini yang memilikinya. Bagaimana aku harus memulai? Apakah hanya diam seperti ini itu cukup untuk mengenalnya lebih jauh seperti yang aku inginkan? Pertanyaan itu selalu menghampiriku seraya mataku sesekali meliriknya."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, tips programmer, jadi programmer, andhikamaheva.com]
 comments: true
 image:
   thumb : programmer.jpg

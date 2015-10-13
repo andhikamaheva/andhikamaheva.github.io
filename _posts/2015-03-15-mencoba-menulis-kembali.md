@@ -3,7 +3,7 @@ layout: post
 title: Mencoba Menulis Kembali
 image-post : /images/dsc05356.jpg
 excerpt: "Ngeblog mungkin bukan merupakan hal yang asing bagi saya, pasalnya dari kelas 1 SMP saya sudah mulai ngeblog dan membuat website kecil - kecilan. Hingga akhirnya saya mengikuti beberapa perlombaan terkait blog dan website. Dari saya SMP itu juga saya mempunyai cita - cita ingin mempunyai sebuah blog pribadi dengan desain minimalis, nggak perlu modal mahal asal saya dapat berbagi ilmu"
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, andhikamaheva.com, penulis blog]
 comments: true
 image:
   thumb : dsc05356.jpg

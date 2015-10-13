@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-tags: [about, Jekyll, theme, responsive]
+tags: [andhikamaheva.com, andhika maheva wicaksono, download gratis, github]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:

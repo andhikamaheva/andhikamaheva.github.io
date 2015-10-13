@@ -4,7 +4,7 @@ title: Menyisipkan Foto Instagram di Postingan Blog Wordpress
 image-post : /images/instagrate-to-wordpress-tn.jpg
 modified : 2015-10-11
 excerpt: "Dia sedang duduk disudut sana. Sendiri, hanya bertemankan sebuah ponsel yang bermerek mahal yang bahkan segelintir orang disekolah ini yang memilikinya. Bagaimana aku harus memulai? Apakah hanya diam seperti ini itu cukup untuk mengenalnya lebih jauh seperti yang aku inginkan? Pertanyaan itu selalu menghampiriku seraya mataku sesekali meliriknya."
-tags: [andhikamaheva, ngeblob, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia]
+tags: [andhikamaheva, ngeblog, cerita, tentang saya, andhika maheva wicaksono, programmer indonesia, instagram, wordpress, andhikamaheva.com]
 comments: true
 image:
   thumb : instagrate-to-wordpress-tn.jpg
